@@ -1,5 +1,5 @@
 require 'faker'
 
-2.times do
-  Item.create!(title: "Petit chaton", description: 'Super mignon !', price: 1)
+20.times do
+  Item.create!(title: Faker::Cat.name, description: Faker::Cat.breed, price: 1)
 end
