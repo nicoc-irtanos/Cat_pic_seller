@@ -7,6 +7,8 @@ class HomeController < ApplicationController
   end
   def profil
   end
+  def signup
+  end
 
   def product_europeen
   end
