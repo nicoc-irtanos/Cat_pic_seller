@@ -1,8 +1,10 @@
 class HomeController < ApplicationController
   def index
   end
-  def product_nature
+  def product_europeen
   end
-  def product_white
+  def product_siberien
+  end
+  def product_persan
   end
 end
