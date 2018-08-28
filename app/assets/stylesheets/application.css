@@ -13,3 +13,71 @@
  *= require_tree .
  *= require_self
  */
+ .cart-table {
+     width: 100%;
+ }
+ .cart-table th,
+  .cart-table td.cart-iname a,
+  .cart-table td.cart-iremove a{
+ 	text-transform:uppercase;
+ 	color:#353535;
+ }
+ .cart-table td, .cart-table th{
+ 	padding: 20px !important;
+ 	text-align: center;
+ }
+ .cart-table td.cart-ithumbnail,
+  .cart-table td.cart-iname,
+  .cart-table th.cart-ithumbnail,
+  .cart-table th.cart-iname{
+ 	text-align:left;
+ }
+ .cart-table td a:hover{
+ 	color:#b83932;
+ }
+ /* Cart Widget */
+ .cart-widget p {
+ 	line-height: 1;
+ 	margin-bottom: 30px;
+ }
+ .coupon-area {
+ 	display: block;
+ 	height: auto;
+ 	overflow: hidden;
+ 	width: 100%;
+ }
+ .coupon-area > input {
+ 	border: 1px solid #ddd;
+ 	height: 35px;
+ 	margin-bottom: 15px;
+ 	padding: 0 15px;
+ 	text-align: center;
+ 	width: 100%;
+ }
+ .cart-widget .btn {
+ 	border-color: #dddddd;
+ 	font-family: raleway;
+ 	font-weight: 500;
+ 	height: 35px;
+ 	line-height: 35px;
+ 	padding: 0;
+ 	text-transform: none;
+ }
+ .btn-coupon {
+ 	margin: 0;
+ 	width: 100%;
+ }
+ .cart-widget .widget-table {
+ 	border-bottom: 1px solid #ddd;
+ 	margin-bottom: 30px;
+ }
+ .cart-widget .widget-table td {
+ 	padding: 25px 0 !important;
+ }
+ .update-cart-area .btn {
+ 	margin: 0 2% 0 0;
+ 	width: 48%;
+ }
+ .update-cart-area:last-child a.btn{
+ 	margin-right:0;
+ }
