@@ -7,4 +7,9 @@ class HomeController < ApplicationController
   end
   def product_persan
   end
+  def product_shop
+  end
+  def product_shop2
+  end
+
 end
