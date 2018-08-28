@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/product_persan', to: 'home#product_persan'
   get '/product_shop', to: 'home#product_shop'
   get '/product_shop2', to: 'home#product_shop2'
+  get '/new_collection', to: 'home#new_collection'
 
   get '/basket', to: 'home#basket'
    get '/checkout', to: 'home#checkout'
