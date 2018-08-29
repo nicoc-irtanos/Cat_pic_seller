@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :line_items
+  resources :carts
+  get 'catalog/index' 
+  resources :products
   resources :charges
 
   root 'home#index'
@@ -19,5 +23,6 @@ Rails.application.routes.draw do
   get '/profil', to: 'home#profil'
   get '/edit_profil', to: 'home#edit_profil'
   get '/confirmation', to: 'home#confirmation'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+
+    # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

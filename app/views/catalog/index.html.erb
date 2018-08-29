@@ -1,0 +1,31 @@
+<h1>Catalogue Produit</h1>
+
+<% cache @products do %>
+  <% @products.each do |product| %>
+    <% cache product do %>
+      <div class="row mb-">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<%= number_to_currency product.price, unit: "euro",
+  separator: ",", format: "%n %u" %>
+
+<%= button_to "ajouter au panier", cart_path(
+  product_id), class: "btn btn-primary" %>
+
+
+
+
+
+<% end %>
