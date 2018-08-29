@@ -91,7 +91,27 @@
                   <textarea placeholder="Message" class="" rows="4" cols="50" name="message"></textarea>
                 </div>
                 <!-- End Single Field -->
-                <a href="#" class="btn btn-brown btn-flat">Order Now</a>
+                <%= form_tag charges_path do %>
+                <article>
+                  <% if flash[:error].present? %>
+                  <div id="error_explanation">
+                    <p><%= flash[:error] %></p>
+                  </div>
+                  <% end %>
+                  <label class="amount">
+                    <!-- <span>Amount: €5.00</span> -->
+                  </label>
+                </article>
+
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+                data-description="Paiement"
+                data-amount="500"
+                data-currency="eur"
+
+                data-locale="auto"></script>
+                <% end %>
+
               </form>
               <!-- End Form -->
             </div>
@@ -126,34 +146,8 @@
                   </tr>
                 </tbody>
               </table>
-              <!-- End Table -->
-              <!-- Start Payment Method -->
-              <div class="payment-box">
-                <!-- Start Single Method -->
-                <div class="single-method">
-                  <div class="method-name" data-toggle="collapse" data-target="#method-1">
-                    <input type="radio" name="gender" value="male" checked> <strong>DIRECT BANK TRANSFER</strong>
-                  </div>
-                  <div id="method-1" class="collapse in">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting isum has been the industry's standard dummy te ever since the 1500s, when an unknown printer.
-                  </div>
-                </div>
-                <!-- End Single Method -->
-                <!-- Start Single Method -->
-                <div class="single-method">
-                  <div class="method-name" data-toggle="collapse" data-target="#method-2">
-                    <input type="radio" name="gender" value="male" checked> <strong>CHEQUE PAYMENT</strong>
-                  </div>
-                  <div id="method-2" class="collapse ">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting isum has been the industry's standard dummy te ever since the 1500s, when an unknown printer.
-                  </div>
-                </div>
-                <!-- End Single Method -->
-                <!-- Start Single Method -->
-                <div class="single-method">
-                  <div class="method-name" data-toggle="collapse" data-target="#method-3">
-                    <input type="radio" name="gender" value="male" checked> <strong>PAYPAL</strong>
-                  </div>
+              
+
                   <div id="method-3" class="collapse">
                     Lorem Ipsum is simply dummy text of the printing and typesetting isum has been the industry's standard dummy te ever since the 1500s, when an unknown printer.
                   </div>
