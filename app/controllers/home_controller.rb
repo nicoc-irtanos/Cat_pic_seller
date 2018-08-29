@@ -17,4 +17,7 @@ class HomeController < ApplicationController
   def product_persan
   end
 
+  def confirmation
+  end
+
 end
