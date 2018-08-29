@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2018_08_27_152356) do
     t.bigint "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_carts_on_user_id"
+    t.index ["user_id"], name: "index_carts_on_user_id", unique: true
   end
 
   create_table "items", force: :cascade do |t|
@@ -55,4 +55,5 @@ ActiveRecord::Schema.define(version: 2018_08_27_152356) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "carts", "users"
 end
