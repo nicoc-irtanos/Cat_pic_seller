@@ -1,0 +1,297 @@
+/*------------------------------------------------------------------------------
+Template Name: Unify Multipurpose HTML5 Template
+Template URI: www.bootitems.com
+Description: This is a multipurpose html5 template
+Author: Masud Rana
+Author URI: www.bootitems.com
+Version: 1.0  
+
+Note: This file includes styles for normal desktop, tablet, large mobile and small mobile;
+	-------------------------------------------------------------------------------*/
+/* =================================================
+Normal desktop :992px. =============================*/
+@media (min-width: 992px) and (max-width: 1169px) {
+.wrapper.boxed-layout, .boxed-layout .sticky {width:960px;}
+.main-menu > li > a {padding: 10px;}
+.slide-content h1 {font-size: 48px;  line-height: 48px;  margin-bottom: 15px;}
+.slide-content p {font-size: 16px;  margin-bottom: 10px;}
+.slide-content .btn {font-size: 14px;  margin: 0 5px;padding: 5px 12px;}
+.slide-content .btn-primary, .slide-content .btn-secondary {height: 36px;line-height: 36px;margin: 10px 5px;padding: 0 20px;}
+#slider-container .owl-controls.clickable {bottom: 10px;}
+#slider-container .slider-resturant .owl-controls.clickable {bottom: 10px;}
+#slider-container .slider-medical .owl-controls.clickable {bottom: 0;margin-top:0;}
+.medical .header-navigation {position: relative;}
+.medical  .slider-content {padding-top:0;}
+.doctor-info > p{display:none;}
+.construction .slide-content h1 {margin-bottom: 20px;}
+.about-left::before {height: 270px;  right: 68px;}
+.construction-about-right {padding: 0;}
+.travel-single-blog {border: 1px solid #ddd;}
+.destination-gallery {text-align: center;}
+.const-member {padding: 15px 0;}
+.single-gitem {display: inline-block;  float: none;  margin: auto 5px 5px;}
+.client-pic {height: 124px;  margin: -60px auto auto;  width: 120px;}
+.client-content {padding-left: 160px;}
+.comments-list .comment-box {width: 81%;}
+.reply-list {padding-left: 130px;}
+.reply-list li::before {left: -80px;width: 80px;}
+}
+/*=================================================
+ Tablet desktop :768px.============================ */
+@media (min-width: 768px) and (max-width: 991px) {
+.wrapper.boxed-layout, .boxed-layout .sticky {width:740px;}		
+.header-navigation {background: #ffffff none repeat scroll 0 0;	position: relative;}
+.header-style-3 .header-area {position: relative;}
+.header-style-4 .header-area {position: relative;}
+.header-style-4 .hidden-menu-area {display: block !important;}
+.resturant .header-top-bar {background: #353535;}
+.slider-content {padding-top: 0;}
+.slide-content h3 {font-size: 20px;  line-height: 24px;  margin-bottom: 10px;}
+.slide-content h2 {font-size: 26px; margin-bottom: 10px;line-height:32px;}
+.slide-content h1 {font-size: 28px;  line-height: 28px;}
+.slide-content p {font-size: 14px;  line-height: 18px;  margin-bottom: 5px;}
+#slider-container .owl-controls.clickable {bottom: 10px;}
+#slider-container .slider-medical .owl-controls.clickable {bottom: 0;  position: absolute;  width: 100%;}
+#slider-container .slider-travel .owl-controls.clickable {bottom: 10px;}
+#slider-container .slider-resturant .owl-controls.clickable {bottom: 10px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-prev {left: 10px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-next {right: 10px;}
+#slider-container .slider-resturant .owl-controls.clickable {bottom: 10px;}
+.slider-resturant .slide-content h1::before {margin-left: -150px;  width: 300px;}
+.construction .slide-content h3 {margin-bottom: 10px;}
+.construction .slide-content h1 {margin-bottom: 12px;}
+.construction .slide-content .btn {margin-top: 5px;}
+.page-header-bg, .page-header-light{min-height:200px;}
+.banner-content {padding-top:0;}
+.fasion-single-blog {margin-bottom: 30px;  width: 100%;}
+.fasion-bthumb img {width: 100%;}
+.travel-single-blog {border: 1px solid #ddd;}
+.const-bthumb {width: 37%;}
+.const-bcontent {width: 63%;}
+.about-left::before, .about-left::after  {display:none;}
+.book-now-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
+.construction-about-right {padding: 0;}
+.doctor-info {padding: 15px 12px;}
+.doctor-info > p{display:none;}
+.destination-gallery {text-align: center;}
+.single-conts-member {display: block;overflow: hidden;}
+.const-member {padding: 68px 0 0;}
+.cons-testi-nav::before {margin-left: 4%;width: 92%;}
+.const-testimonials .testi-next {right: -10px;}
+.const-testimonials .testi-prev {left: -10px;}
+.single-gitem {display: inline-block;float: none;margin: auto 5px 5px;}
+.reservation-form-area {background: transparent;}
+.team-member > a::after {top: 58%;}
+.update-cart-area .btn {display: block;float: left !important;margin: auto auto 20px;width: 100%;}
+.carousel-control-flat .owl-page {margin: 0;  width: 86px;}
+.slide-content .btn {font-size: 13px;font-weight: 600;margin: 5px 5px 0;padding: 5px 12px;}
+.slide-content .btn-primary, .slide-content .btn-secondary{height: 36px;line-height: 36px;margin: 10px 5px;padding: 0 20px;}
+.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 14px;font-weight: 600;padding: 5px 15px;}
+.comments-list .comment-box {width: 76%;}
+.reply-list {padding-left: 130px;}
+.reply-list li::before {left: -80px;width: 80px;}
+}
+/* ==================================================================================
+Small Mobile :320px. ================================================================*/
+@media (max-width: 767px) {
+.wrapper.boxed-layout, .boxed-layout .sticky {width:310px;}	
+.container {width:300px}
+.top-left-info{text-align:center;}
+.list-menu {text-align: center;  float:none !important;}
+.list-menu > li {margin-left: 16px;}
+.list-menu > li {display: inline-block;  float: none;}
+.list-menu > li::after {display: none;}
+.mobile-menu-area {width:270px}
+.header-navigation {background: #ffffff none repeat scroll 0 0;	position: relative;}
+.travel .header-navigation, .resturant .header-top-bar {background: #353535;}
+.header-style-3 .header-area {position: relative;}
+.topbar-stylish-inner {margin: auto auto auto -155px;width: 310px;}
+.topbar-stylish .list-menu > li {margin: 0 5px;}
+.header-style-4 .header-area {  position: relative;}
+.header-style-4 .hidden-menu-area {display: block !important;}
+.top-right-menu {  width: 100%;}
+.top-right-menu.pull-right > ul {display: block;text-align: center;}
+.top-right-menu ul li .search-box {  right: -85px;  top: 55px;width: 270px;}
+.search-box-inner .search {width: 195px;}
+.search-box-inner .submit {width: 52px;}
+.shiping-cart .cart-items-container {right: -150px;top:55px;}
+.slider-content {padding-top: 0;}
+.slide-content h3 {font-size: 18px;font-weight: 700; line-height: 20px;margin-bottom: 8px;}
+.slide-content h1 {font-size: 24px;  line-height: 28px;  margin-bottom: 10px;}
+.slider-ecommerce .slide-content h1 {  line-height: 26px;}
+.slide-content h3 {font-size: 14px;}
+.slide-content p {display: none;}
+.slide-content .btn {  margin: 0 5px 0;}
+.medical .slide-content h1 {  font-size: 20px;  line-height: 24px;margin-bottom: 5px;}
+.slider-resturant .slide-content h1 { margin-bottom:10px;}
+.slider-resturant .slide-content h1::before {  display: none;}
+.slider-resturant .slide-content p {display: block;font-size: 14px;line-height: 25px; margin-bottom: 0;}
+.widget-area {margin-top: 60px;}
+.construction .slide-content h3 {margin-bottom: 0;}
+.construction .slide-content h1 {margin-bottom: 5px;}
+.construction .slide-content .btn {margin-top: 0;}
+#slider-container .slider-resturant .owl-controls.clickable {  bottom: 10px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-prev {left: 10px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-next {right: 10px;}
+#slider-container .owl-controls.clickable {display: none !important;}
+.page-header-bg, .page-header-light{min-height:200px;}
+.banner-parallax {top:0 !important;}
+.banner-content {padding-top:0;}
+.page-title {margin-bottom: 5px;}
+.about-left {height: auto;}
+.about-left::after, .about-left::before {display: none;}
+.about-right {margin-bottom: 30px;}
+.book-now-bg { background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
+.construction-about-right{padding: 0 0 30px;}
+.clients-area.padbot110 {padding-bottom: 25px;}
+.client-pic {height: 78px;left: inherit;margin-top: 25px;padding: 0;right: 5px;top: 100%;width: 75px;}
+.single-client {margin: 0 0 105px;}
+.client {padding: 15px;}
+.client::before {border-bottom: 14px solid transparent; border-right: 20px solid #fff;border-top: 14px solid transparent;margin-top: -4px;right: 32px;top: 100%;  transform: rotate(-90deg);}
+.client-content {padding-left: 0;}
+.client-info {margin-bottom: 20px;}
+.client-say > p {margin-bottom: 5px;}
+.carousel-control-flat .owl-page {margin: 0;width: 22px;}
+.single-brand {line-height: 60px;padding: 10px;}
+.resturant .section-title > h2 {font-size: 18px;margin-bottom: 25px;}
+.footer-bottom-area {padding: 27px 0 50px;}
+.copyright-text {margin-bottom: 25px; text-align: center;}
+.footer-social-links ul.social-links {text-align: center;}
+.fasion-single-blog {margin-bottom: 30px;  width: 100%;}
+.fasion-bthumb img {width: 100%;}
+.const-bthumb {padding-right: 0;width: 100%;}
+.const-bthumb img {height: auto;  width: 100%;}
+.const-bthumb::after {display: none;}
+.const-bcontent {border: 1px solid #ddd;padding: 20px;width: 100%;}
+.const-bcontent::before {  display: none;}
+#special-today {background: #eadece;}
+.rest-bthumb img {float: none;  width: 100%;}
+.rest-bcontent {max-width: 100%;  position: relative;  top: 0;}
+.travel-single-blog {margin: 0 0 50px;padding: 0;width: 100%;}
+.travel-single-blog:last-child {margin-bottom: 0;}
+.tb-post {padding: 30px 10px;}
+.tb-meta {font-size: 10px;font-weight: 600;}
+#patient-quotes .owl-controls .owl-next {right:0;}
+#patient-quotes .owl-controls .owl-prev {left: 0;}
+.cons-testi-author > img {height: 70px;  width: 70px;}
+.const-testimonials .slick-arrow {font-size: 16px;height: 25px;line-height: 22px;margin-top: -54px;width: 25px;}
+.const-testimonials .testi-prev {left: -12px;}
+.const-testimonials .testi-next {right: -12px;}
+.cons-testi-nav::before {margin-top: -42px;}
+.fasion-author-pic {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: 1px solid #ddd;border-radius: 50%;float: none;margin: auto auto 15px;padding: 3px;}
+.fasion-author-pic > img {height: 100%;margin: 0;padding: 0;width: 100%;}
+.fasion-testimonial .author-quote-area {left: 0;opacity: 1;overflow: visible;position: relative;text-align: center;top: 0;visibility: visible;}
+.fas-author-quote {max-width: 100%;}
+.author-quote-area > h4 {margin-bottom: 15px;}
+.fasion-testimonials .slick-arrow {border: medium none;}
+.fasion-testimonials .arrow-next {right: -12%;}
+.fasion-testimonials .arrow-prev {left: -12%;}
+.testimonials-inner .slider-for .testi-prev {left: -15px;}
+.testimonials-inner .slider-for .testi-next {right: -15px;}
+.doctor-info > p{display:none;}
+.half-field, .half-field-last {width: 100%;}
+.const-member{text-align:center;}
+.const-member {padding: 10px 0;}
+.plan-details .btn-tra {font-size: 16px;font-weight: 700;padding: 4px 20px;margin: 20px 5px 0; }
+.slide-content .btn {margin: 0 5px;padding: 5px 10px;}
+.slide-content .btn-primary, .slide-content .btn-secondary{height:30px; line-height:30px;margin: 2px 5px 4px;padding: 0 12px;}
+.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 12px;font-weight: 600;padding: 3px 15px;}
+.slide-content .btn-med {font-size: 12px;font-weight: 500;padding: 4px 10px;}
+.slide-content .btn-tra{font-size:12px;}
+.quickview-btns .btn {margin-bottom: 20px;}
+.quickview-btns a.btn:last-child {margin-bottom: 0;}
+.update-cart-area .btn {display: block;float: left !important;margin: auto auto 20px;width: 100%;}
+.search-wrap {width: 260px;}
+.reservation-form-area {background: transparent;}
+.comments-list .comment-avatar {border: 2px solid #fff;height: 50px;width: 50px;}
+.comments-list .comment-box {width: 77%;}
+.comment-box .comment-head {padding: 12px 6px;}
+.comments-list::before {left: 25px;width: 1px;}
+.reply-list li::before{display:none;}
+.reply-list .comment-avatar {height: 40px;width: 40px;}
+.reply-list {padding-left: 30px;}
+.reply-list .comment-box {width: 78%;}
+.comment-box .comment-name {display: block;float: none;}
+.footer-bottom-area .cards img {display: block;margin: auto;}
+}
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.wrapper.boxed-layout, .boxed-layout .sticky {width:470px;}	
+.container {width:450px}
+.mobile-menu-area {width:420px}
+.header-navigation {background: #ffffff none repeat scroll 0 0;	position: relative;}
+.header-style-3 .header-area {position: relative;}
+.header-style-4 .hidden-menu-area {display: block !important;}
+.resturant .header-top-bar, .resturant .header-top-bar {background: #353535;}
+.slider-content {padding-top: 0;}
+.slide-content h3 {font-size: 20px; margin-bottom: 10px;}
+.slide-content h2 {font-size: 22px; margin-bottom: 10px;line-height:28px;}
+.slide-content h1 {font-size: 26px;line-height: 30px;}
+.slide-content p {display: none;}
+.slide-content .btn {margin: 0 5px 0;}
+.slider-ecommerce .slide-content h1 {line-height: 30px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-prev {left: 10px;}
+#slider-container .slider-ecommerce .owl-controls .owl-buttons div.owl-next {right: 10px;}
+#slider-container .owl-controls.clickable {  display: none !important;}
+#slider-container .slider-resturant .owl-controls.clickable {  bottom: 10px;}
+.construction .slide-content h3 {margin-bottom: 10px;}
+.construction .slide-content h1 {margin-bottom: 12px;}
+.construction .slide-content .btn {margin-top: 0;}
+.page-header-bg, .page-header-light{min-height:200px;}
+.banner-parallax{top:0 !important;}
+.banner-content {padding-top:0;}
+.page-title {margin-bottom: 10px;}
+.about-left {height: auto;}
+.about-left::after, .about-left::before {display: none;}
+.about-right {  margin-bottom: 30px;}
+.construction-about-right{padding: 0 0 30px;}
+.carousel-control-flat .owl-page {margin: 0;  width: 50px;}
+.single-brand {line-height: 70px;  padding: 5px;}
+.fasion-single-blog {margin-bottom: 30px;  width: 100%;}
+.fasion-bthumb img {width: 100%;}
+.blog-post-heading {line-height: 20px;}
+.slide-content .btn {margin: 0 5px;  padding: 5px 10px;}
+.slide-content .btn-primary, .slide-content .btn-secondary{height: 32px;line-height: 32px;padding: 0 15px;}
+.slide-content .btn-lg, .slide-content .btn-group-lg > .btn {font-size: 14px;font-weight: 600;padding: 5px 15px;}
+.slide-content .btn-med {font-size: 12px;font-weight: 500;padding: 4px 10px;}
+.quickview-btns .btn {margin-bottom: 0;}
+.quickview-btns a.btn:last-child {margin-bottom: 0;}
+.update-cart-area .btn {display: block;float: left !important;margin: auto auto 20px;width: 100%;}
+.widget-area {margin-top: 60px;}
+#special-today {background: #eadece;}
+.rest-bthumb img {float: none;width: 100%;}
+.rest-bcontent {max-width: 100%;position: relative;top: 0;}
+.const-bthumb {padding-right: 0;width: 100%;}
+.const-bthumb img {height: auto;width: 100%;}
+.const-bthumb::after {display: none;}
+.const-bcontent {border: 1px solid #ddd;padding: 20px;width: 100%;}
+.const-bcontent::before {display: none;}
+.travel-single-blog {margin: 0 0 50px;padding: 0;width: 100%;}
+.travel-single-blog:last-child {margin-bottom: 0;}
+.tb-post {padding: 30px 20px;}
+.tb-meta {font-size: 11px;font-weight: 700;}
+.plan-details .btn-tra {font-size: 16px;font-weight: 700;padding: 4px 20px;margin: 20px 5px 0; }
+.const-member{text-align:center;} 
+.const-member {padding: 10px 0;}
+#patient-quotes .owl-controls .owl-next {right: 20%;}
+#patient-quotes .owl-controls .owl-prev {left: 20%;}
+.doctor-info > p{display:none;}
+.doctors-inner .arrow-prev {left: -50px;}
+.doctors-inner .arrow-next {right: -50px;}
+.testimonials-inner .slider-for .testi-prev {left: -15px;}
+.testimonials-inner .slider-for .testi-next {right: 30px;}
+.destination-gallery {text-align: center;}
+.single-gitem {float: none;margin: auto auto 20px;text-align:left;}
+.search-wrap {width: 260px;}
+.reservation-form-area {background: transparent;}
+.comments-list .comment-avatar {border: 4px solid #fff;height: 70px;width: 70px;}
+.comments-list .comment-box {width: 77%;}
+.comments-list::before {left: 35px;width: 1px;}
+.comment-box .comment-head {padding: 12px 6px;}
+.reply-list li::before {height: 1px;left: -56px;top: 29px;width: 60px;}
+.reply-list .comment-avatar {height: 60px;width: 60px;}
+.reply-list {padding-left: 92px;}
+.comments-list .comment-box {width: 78%;}
+.comment-box .comment-name {display: block;float: none;}
+.reply-list .comment-box {width: 75%;}
+}

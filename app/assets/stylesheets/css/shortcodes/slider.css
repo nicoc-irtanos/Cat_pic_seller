@@ -1,0 +1,599 @@
+/* -----------------------------------
+Template Name: Unify Multipurpose HTML5 Template
+Template URI: www.bootitems.com
+Description: This is a multipurpose html5 template
+Author: Masud Rana
+Author URI: www.bootitems.com
+Version: 1.0  
+
+NOTE: This is Slider style file. All Slider related style included in this file.
+-----------------------------------------------------------------------------------
+CSS INDEX
+===================
+   1. Default Slider Settings
+   2. Construction Slider Styles
+   3. Resturant Slider Styles
+   4. Travel Slider Styles
+   5. Ecommerce Slider Styles
+   6. Medical Slider Styles
+--------------------------------------*/
+/*===========================================
+   1. Default Slider Settings
+=============================================*/
+#slider-container {
+	background-color: #ffffff;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+#slider-container .owl-wrapper-outer,
+#slider-container .owl-wrapper,
+#slider-container .owl-item{
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.slider-content-area {
+	display: block;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.slider-container {
+	display: block;
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.single-slide {
+	height: 100%;
+	position: relative;
+	width: 100%;
+}
+.single-slide > a {
+	display: block;
+	position: relative;
+}
+.single-slide img {
+	width: 100%;
+	z-index: 1;
+}
+.corporate .single-slide img {
+	height:100vh;
+}
+.dis-table{
+	display: table;
+	float: left;
+	height: 100%;
+	width: 100%;	
+}
+.dis-table-cell{
+	display: table-cell;
+	vertical-align: middle;	
+}
+/* Slider Content Style */
+.slider-content{
+	padding-top: 95px;
+	position: relative;
+	z-index: 20;	
+}
+.slide-content h1 {
+	font-size: 60px;
+	line-height: 66px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	position:relative;
+}
+.slide-content > h2 {
+	font-family: lato;
+	font-weight: 900;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+.slide-content h3 {
+	font-family: lato;
+	font-weight: 900;
+	line-height: 28px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.slide-content p {
+	font-family: raleway;
+	font-size: 16px;
+	font-weight: 600;
+}
+.slide-content .btn {
+    margin: 10px 5px 0;
+}
+/*-------------------------------------
+   2. Unify Slider Controns 
+---------------------------------------*/
+.unify-owl-slider {
+	position: relative;
+	height:100%;
+	width:100%;
+}
+.unify-owl-slider .owl-controls.clickable {
+	bottom: 30px;
+	position: absolute;
+	width: 100%;
+	z-index: 9;
+}
+.unify-owl-slider .owl-controls .owl-page span {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #353535;
+	opacity: 1;
+}
+.unify-owl-slider .owl-controls .owl-page.active span,
+ .unify-owl-slider .owl-controls.clickable .owl-page:hover span {
+	background-color: #8ec448;
+	border: 1px solid #8ec448;
+	border-radius: 50%;
+}
+/* Default Slider Animations */
+.owl-item.active .slide-content h3{
+        -webkit-animation: fadeInLeft 1000ms ease-in-out;
+     -moz-animation: fadeInLeft 1000ms ease-in-out;
+    -ms-animation: fadeInLeft 1000ms ease-in-out;
+    animation: fadeInLeft 1000ms ease-in-out;
+}
+.owl-item.active .slide-content h1{
+        -webkit-animation: lightSpeedIn 2500ms ease-in-out;
+    -moz-animation: lightSpeedIn 2500ms ease-in-out;
+    -ms-animation: lightSpeedIn 2500ms ease-in-out;
+    animation: lightSpeedIn 2500ms ease-in-out;
+}
+.owl-item.active .slider-content p{
+        -webkit-animation: fadeInRight 3000ms ease-in-out;
+    -moz-animation: fadeInRight 3000ms ease-in-out;
+    -ms-animation: fadeInRight 3000ms ease-in-out;
+    animation: fadeInRight 3000ms ease-in-out;
+}
+.owl-item.active .slider-content a.btn{
+        -webkit-animation: zoomInUp 5000ms ease-in-out;
+    -moz-animation: zoomInUp 5000ms ease-in-out;
+    -ms-animation: zoomInUp 5000ms ease-in-out;
+    animation: zoomInUp 5000ms ease-in-out;
+}
+/*===========================================
+   2. Construction Slider Styles
+=============================================*/
+.slider-construction .slider-content-area::before {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 18;
+}
+.slider-construction .slide-content h1,
+ .slider-construction .slide-content h2,
+ .slider-construction .slide-content h3,
+ .slider-construction .slide-content h4{
+	color: #fff;
+	font-weight:700;
+}
+.slider-construction .slide-content p{
+	color:#fff;
+}
+.slider-construction .slide-content h1 {
+    margin-bottom: 30px;
+}
+.slider-construction .slide-content h3 {
+	margin-bottom: 10px;
+	font-family: raleway;
+}
+.slider-construction .slide-content .btn{
+	margin-top:10px;
+}
+/* construction slider Control */
+.slider-construction .owl-controls.clickable {
+	bottom: 30px;
+	position: absolute;
+	width: 100%;
+}
+.slider-construction .owl-controls .owl-page span {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #ffac0e;
+}
+.slider-construction .owl-controls .owl-page.active span,
+ .slider-construction .owl-controls.clickable .owl-page:hover span {
+	background: #ffac0e none repeat scroll 0 0;
+	border: 1px solid #ffac0e;
+}
+.slider-construction .owl-theme .owl-controls .owl-page.active span {
+	height: 15px;
+	width: 15px;
+}
+/* Slider construction Animation */
+.slider-construction .owl-item.active .slide-content h3{
+        -webkit-animation: fadeInLeft 2800ms ease-in-out;
+     -moz-animation: fadeInLeft 2800ms ease-in-out;
+    -ms-animation: fadeInLeft 2800ms ease-in-out;
+    animation: fadeInLeft 2800ms ease-in-out;
+}
+.slider-construction .owl-item.active .slide-content h1{
+        -webkit-animation: lightSpeedIn 2500ms ease-in-out;
+    -moz-animation: lightSpeedIn 2500ms ease-in-out;
+    -ms-animation: lightSpeedIn 2500ms ease-in-out;
+    animation: lightSpeedIn 2500ms ease-in-out;
+}
+.slider-construction .owl-item.active .slider-content p{
+        -webkit-animation: fadeInRight 3000ms ease-in-out;
+    -moz-animation: fadeInRight 3000ms ease-in-out;
+    -ms-animation: fadeInRight 3000ms ease-in-out;
+    animation: fadeInRight 3000ms ease-in-out;
+}
+.slider-construction .owl-item.active .slider-content a.btn{
+        -webkit-animation: zoomInUp 5000ms ease-in-out;
+    -moz-animation: zoomInUp 5000ms ease-in-out;
+    -ms-animation: zoomInUp 5000ms ease-in-out;
+    animation: zoomInUp 5000ms ease-in-out;
+}
+/* ===========================================================
+	3. Resturant Slider Styles
+ =============================================================*/
+.slider-resturant {
+	position: relative;
+}
+.slider-resturant .slide-content h1 {
+	margin-bottom: 60px;
+}
+.slider-resturant .slide-content h1::before {
+	background: rgba(0, 0, 0, 0) url("../../img/slider-seperator.png") repeat scroll center center;
+	bottom: -40px;
+	content: "";
+	height: 22px;
+	left: 50%;
+	margin-left: -290px;
+	position: absolute;
+	width: 579px;
+}
+.slider-resturant .slide-content h1,
+ .slider-resturant .slide-content h2,
+ .slider-resturant .slide-content h3 {
+	color: #fff;
+	font-weight:700;
+}
+.slider-resturant .slide-content p{
+	color:#fff;
+	line-height: 32px;
+}
+.slider-resturant .slide-content h1 span{
+    color:#d83240;	
+}
+/* resturant slider Control */
+.slider-resturant .owl-controls.clickable {
+	bottom: 50px;
+	position: absolute;
+	width: 100%;
+}
+.slider-resturant .owl-controls .owl-page span {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 0;
+  transform: rotate(-45deg);
+  transition: all 0.3s ease 0s;;
+}
+.slider-resturant .owl-controls .owl-page.active span,
+.slider-resturant .owl-controls.clickable .owl-page:hover span {
+  background: #fcda9a none repeat scroll 0 0;
+  border: 1px solid #e2aa40;
+  height: 15px;
+  width: 15px;
+}
+/* Slider resturant Animation */
+.slider-resturant .owl-item.active .slide-content h3{
+        -webkit-animation: fadeInUp 1000ms ease-in-out;
+     -moz-animation: fadeInUp 1000ms ease-in-out;
+    -ms-animation: fadeInUp 1000ms ease-in-out;
+    animation: fadeInUp 1000ms ease-in-out;
+}
+.slider-resturant .owl-item.active .slide-content h1{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+.slider-resturant .owl-item.active .slider-content p{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+.slider-resturant .owl-item.active .slider-content a.btn{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+.slider-resturant .owl-item.active .slider-content a.primary-btn{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+/* ===========================================================
+	4. Slider Travel Styles
+ =============================================================*/
+.travel .slider-travel {
+	position: relative;
+	margin-bottom: 100px;
+}
+.slider-travel .slider-content-area::before {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 18;
+}
+.slider-travel .slide-content h1 {
+	margin-bottom: 30px;
+}
+.slider-travel .slide-content h1,
+ .slider-travel .slide-content h2,
+ .slider-travel .slide-content h3 {
+	color: #fff;
+	font-weight:700;
+}
+.slider-travel .slide-content p{
+	color:#fff;
+}
+.slider-travel .slide-content h1 span{
+   color:#d83240;	
+}
+/* Travel slider Control */
+#slider-container .slider-travel .owl-controls.clickable {
+	bottom: 55px;
+	position: absolute;
+	width: 100%;
+}
+#slider-container .slider-travel .owl-controls .owl-page span {
+	background: transparent none repeat scroll 0 0;
+	color: #fff;
+	font-family: raleway;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 12px;
+	padding: 0;
+	opacity:1;
+}
+#slider-container .slider-travel .owl-controls .owl-page.active span,
+ #slider-container .slider-travel .owl-controls.clickable .owl-page:hover span {
+    color:#d83240;
+}
+/* Slider Travel Animation */
+.slider-travel .owl-item.active .slide-content h1{
+        -webkit-animation: slideInDown 1200ms ease-in-out;
+     -moz-animation: slideInDown 1200ms ease-in-out;
+    -ms-animation: slideInDown 1200ms ease-in-out;
+    animation: slideInDown 1200ms ease-in-out;
+}
+.slider-travel .owl-item.active .slider-content p{
+        -webkit-animation: slideInDown 1200ms ease-in-out;
+     -moz-animation: slideInDown 1200ms ease-in-out;
+    -ms-animation: slideInDown 1200ms ease-in-out;
+    animation: slideInDown 1200ms ease-in-out;
+}
+.slider-travel .owl-item.active .slider-content a.btn{
+        -webkit-animation: slideInDown 1200ms ease-in-out;
+     -moz-animation: slideInDown 1200ms ease-in-out;
+    -ms-animation: slideInDown 1200ms ease-in-out;
+    animation: slideInDown 1200ms ease-in-out;
+}
+.slider-travel .owl-item.active .slider-content a.primary-btn{
+        -webkit-animation: slideInDown 1200ms ease-in-out;
+     -moz-animation: slideInDown 1200ms ease-in-out;
+    -ms-animation: slideInDown 1200ms ease-in-out;
+    animation: slideInDown 1200ms ease-in-out;
+}
+/* ===========================================================
+	5. Slider Ecommerce Styles
+ =============================================================*/
+.slider-ecommerce {
+	position: relative;
+}
+.slider-ecommerce .slide-content h1{
+	line-height:60px
+}
+.slider-ecommerce .slide-content h1,
+ .slider-ecommerce .slide-content h2,
+ .slider-ecommerce .slide-content h3 {
+	font-weight:700;
+}
+.slider-ecommerce .slide-content h1 span{
+   color:#d83240;	
+}
+.slider-ecommerce .slide-content h3 {
+	color:#b83932;
+	margin-bottom:10px;
+}
+.slider-ecommerce .slide-content p {
+	font-family: "Lato",sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+}
+/* ecommerce slider Control */
+.slider-ecommerce .owl-controls .owl-buttons div {
+	background: transparent none repeat scroll 0 0;
+	border: 1px solid #353535;
+	border-radius: 50%;
+	color: #353535;
+	font-size: 40px;
+	height: 50px;
+	line-height: 50px;
+	opacity: 1;
+	padding: 0;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	width: 50px;
+}
+.slider-ecommerce .owl-controls .owl-buttons div:hover{
+	background:#b83932;
+	border:1px solid rgba(0, 0, 0, 0.1);
+	color:#fff;
+}
+.slider-ecommerce .owl-controls .owl-buttons div.owl-prev{
+	left:100px;
+}
+.slider-ecommerce .owl-controls .owl-buttons div.owl-next{
+    right:100px;
+}
+/* Slider Ecommerce Animation */
+.slider-ecommerce .owl-item.active .slide-content h3{
+        -webkit-animation: fadeInDown 1000ms ease-in-out;
+     -moz-animation: fadeInDown 1000ms ease-in-out;
+    -ms-animation: fadeInDown 1000ms ease-in-out;
+    animation: fadeInDown 1000ms ease-in-out;
+}
+.slider-ecommerce .owl-item.active .slide-content h1{
+        -webkit-animation: fadeInDown 1200ms ease-in-out;
+     -moz-animation: fadeInDown 1200ms ease-in-out;
+    -ms-animation: fadeInDown 1200ms ease-in-out;
+    animation: fadeInDown 1200ms ease-in-out;
+}
+.slider-ecommerce .owl-item.active .slider-content p{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+.slider-ecommerce .owl-item.active .slider-content a.btn{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+.slider-ecommerce .owl-item.active .slider-content a.primary-btn{
+        -webkit-animation: fadeInUp 1200ms ease-in-out;
+     -moz-animation: fadeInUp 1200ms ease-in-out;
+    -ms-animation: fadeInUp 1200ms ease-in-out;
+    animation: fadeInUp 1200ms ease-in-out;
+}
+
+/*===========================================
+   6. Medical Slider Styles
+=============================================*/
+.slider-medical .owl-controls.clickable {
+	bottom: 30px;
+	position: absolute;
+	width: 100%;
+}
+.medical .slider-content-area::before {
+	background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+	content: "";
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 18;
+}
+.medical .slide-content h1, .medical .slide-content h2,
+ .medical .slide-content h3, .medical .slide-content h4{
+	color: #fff;
+	font-weight:700;
+}
+.medical .slide-content p{
+	color:#fff;
+}
+/* Medical slider Control */
+.slider-medical .owl-controls .owl-page span {
+	background: #fff none repeat scroll 0 0;
+	border: none;
+	border-radius: 0;
+	opacity: 1;
+	}
+.slider-medical .owl-controls .owl-page.active span,
+ .slider-medical .owl-controls.clickable .owl-page:hover span {
+	background: #0199ED none repeat scroll 0 0;
+	border: none;
+	border-radius: 0;
+}
+.slider-medical .owl-controls .owl-page {
+	border: 1px solid transparent;
+	margin: 0 5px;
+}
+.slider-medical .owl-controls .owl-page.active,
+ .slider-medical .owl-controls .owl-page:hover {
+	border: 1px solid #0199ED;
+	display: inline-block;
+}
+/* Slider Corporate Animation */
+.slider-medical .owl-item.active .slide-content h3{
+        -webkit-animation: fadeInLeft 2800ms ease-in-out;
+     -moz-animation: fadeInLeft 2800ms ease-in-out;
+    -ms-animation: fadeInLeft 2800ms ease-in-out;
+    animation: fadeInLeft 2800ms ease-in-out;
+}
+.slider-medical .owl-item.active .slide-content h1{
+        -webkit-animation: lightSpeedIn 2500ms ease-in-out;
+    -moz-animation: lightSpeedIn 2500ms ease-in-out;
+    -ms-animation: lightSpeedIn 2500ms ease-in-out;
+    animation: lightSpeedIn 2500ms ease-in-out;
+}
+.slider-medical .owl-item.active .slider-content p{
+        -webkit-animation: fadeInRight 3000ms ease-in-out;
+    -moz-animation: fadeInRight 3000ms ease-in-out;
+    -ms-animation: fadeInRight 3000ms ease-in-out;
+    animation: fadeInRight 3000ms ease-in-out;
+}
+.slider-medical .owl-item.active .slider-content a.btn{
+    -webkit-animation: zoomInUp 5000ms ease-in-out;
+    -moz-animation: zoomInUp 5000ms ease-in-out;
+    -ms-animation: zoomInUp 5000ms ease-in-out;
+    animation: zoomInUp 5000ms ease-in-out;
+}
+/*===========================================
+  Home Parallax
+=============================================*/
+#slider-container-2 {
+	display: block;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+#slider-container-2 .owl-wrapper-outer,
+ #slider-container-2 .owl-wrapper,
+ #slider-container-2 .owl-item{
+	height: 100%;
+	position: relative;
+	width: 100%;
+	overflow:hidden;
+	z-index:1;
+}
+#slider-container-2 .slider-bg{
+	display: block;
+	position: relative;	
+}
+#slider-container-2 .slider-content-wrap {
+	display: block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9;
+}
+#slider-container-2 .slider-content-wrap > div{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+#slider-container-2 .owl-controls.clickable {
+    display:none !important;
+}

@@ -1,0 +1,151 @@
+<%= render "layouts/header"%>
+
+<!-- End Header -->
+<!-- Start Page Banner -->
+<div id="page-header">
+  <!-- Start Banner Picture -->
+  <div class="banner-parallax" data-stellar-ratio="0.3">
+    <!-- <img src="img/banners/6.jpg" alt="" /> -->
+  </div>
+  <!-- End Banner Picture -->
+  <!-- Start Banner Content -->
+  <div class="banner-content">
+    <div class="dis-table">
+      <div class="dis-table-cell text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <!-- Page Title -->
+              <h2 class="page-title uppercase">Checkout</h2>
+              <!-- Start Breadcrumb -->
+              <ul class="breadcrumbs">
+                <li><a href="ecommerce-home.html">Home</a></li>
+                <li class="active">Checkout</li>
+              </ul>
+              <!-- End Breadcrumb -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Banner Content -->
+</div>
+<!-- End Page Banner -->
+<!-- Start Site Content -->
+<div class="site-content ptb-100">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="content-area">
+          <div class="row">
+            <div class="col-xs-12 col-sm-7 col-md-7">
+              <!-- Start Place Head -->
+              <div class="place-head">
+                <h3>BILLING DETAILS</h3>
+              </div>
+              <!-- End Place Head -->
+              <!-- Start Form -->
+              <form action="#" class="appointment-form">
+                <div class="single-field">
+                  <input type="text" name="name" placeholder="First Name">
+                </div>
+                <div class="single-field">
+                  <input type="text" name="name" placeholder="Last Name">
+                </div>
+                <!-- End Single Field -->
+                <div class="single-field half-field">
+                  <input type="text" name="email" placeholder="E-Mail" autocomplete="on">
+                </div>
+                <!-- End Single Field -->
+                <!-- End Single Field -->
+                <div class="single-field half-field-last">
+                  <input type="text" name="phone" placeholder="Phone">
+                </div>
+                <!-- End Single Field -->
+                <div class="single-field">
+                  <select class="arrow-1">
+                    <option selected="selected">Country</option>
+                    <option value="France">France</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="China">China</option>
+                  </select>
+                </div>
+                <!-- End Single Field -->
+                <div class="single-field">
+                  <input type="text" name="Adresse" placeholder="Adresse">
+
+                </div>
+
+                <%= form_tag charges_path do %>
+                <article>
+                  <% if flash[:error].present? %>
+                  <div id="error_explanation">
+                    <p><%= flash[:error] %></p>
+                  </div>
+                  <% end %>
+                  <label class="amount">
+                    <!-- <span>Amount: €5.00</span> -->
+                  </label>
+                </article>
+                <!-- #####################Stripe##########################"""" -->
+                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+                data-description="Paiement"
+                data-amount="9900"
+                data-currency="eur"
+
+                data-locale="auto"></script>
+                <% end %>
+
+              </form>
+              <!-- End Form -->
+            </div>
+
+            <div class="col-xs-12 col-sm-5 col-md-5">
+              <!-- Start Place Head -->
+              <div class="place-head">
+                <h3>YOUR ORDER</h3>
+              </div>
+              <!-- End Place Head -->
+              <!-- Start Table -->
+              <table class="table table-bordered order-table">
+                <tbody>
+                  <tr>
+                    <td><strong>Product</strong></td>
+                    <td class="text-right"><strong>Total</strong></td>
+                  </tr>
+                  <tr>
+                    <td>Sample Product Name</td>
+                    <td class="text-right">€ 99.00</td>
+                  </tr>
+                  <tr>
+                    <td>Sample Product Name</td>
+                    <td class="text-right">Free</td>
+                  </tr>
+                  <tr>
+                    <td>Sample Product Name</td>
+                    <td class="text-right">€ 99.00</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Subtotal</strong></td>
+                    <td class="text-right"><strong>€ 99.00</strong></td>
+                  </tr>
+                </tbody>
+              </table>
+              
+            </div>
+            <!-- End Single Method -->
+          </div>
+          <!-- End Payment Method -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!-- End Site Content -->
+<%= render "layouts/footer"%>
