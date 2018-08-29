@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   devise_for :users, controllers: {
     sessions: 'users/sessions'
   }
+  get '/index', to: 'home#index'
   get '/product_europeen', to: 'home#product_europeen'
   get '/product_siberien', to: 'home#product_siberien'
   get '/product_persan', to: 'home#product_persan'
