@@ -1,0 +1,676 @@
+/* ========================1. Corporate Page colors =================================*/
+a{color:#0199ed;}
+.btn-cor.btn-borders:hover{
+	background-color: #0199ed;
+}
+.btn-load.btn-borders:hover{
+	background-color: #0199ed;
+}
+.btn-cor{
+	background-color: #0199ed;
+}
+.btn-success{
+	background-color: #0199ed;
+}
+.header-top-bar {
+	background-color: #0199ed ;
+}
+.topbar-stylish {
+	border-top: 20px solid #0199ed;
+}
+.topbar-stylish-inner {
+	background-color: #0199ed;
+}
+.main-menu > li:hover > a,.main-menu li ul > li:hover > a,
+.main-menu li ul li.has-child:hover > a::after,
+.main-menu > li a.active {
+    color: #0199ed;
+}
+.single-mega-item li.menu-title::before {
+	background-color: #0199ed;
+}
+.mega-menu-form .single-field > input:focus,
+.mega-menu-form .single-field > textarea:focus {
+    border: 1px solid #0199ed;
+}
+.btn.menu-btn:hover {
+	background-color: #0199ed;
+	border: 1px solid #0199ed;
+}
+.src-btn:hover{
+	color:#0199ed;
+}
+.corporate .breadcrumbs > li.active{
+	color:#0199ed;
+}
+.unify-owl-slider .owl-controls .owl-page.active span,
+.unify-owl-slider .owl-controls.clickable .owl-page:hover span {
+	background-color: #0199ed;
+	border: 1px solid #0199ed;
+}
+.service-item:hover > i {
+	color: #0199ed;
+}
+.filter-catagory-menu li:hover,
+ .filter-catagory-menu li.active{
+    color:#0199ed;
+}
+.portfolio-content > h6 a:hover{
+	color:#0199ed;
+}
+.ovrly-btns {
+	background-color: #0199ed;
+}
+.ovrly-btns:hover{
+	color: #0199ed;
+}
+.about-left::before {
+	background-color: #0199ed;
+}
+.progress-item .progress-bar {
+    background-color: #0199ed;
+}
+.social-links > li > a:hover{
+	color:#0199ed;
+}
+.carousel-control-1 .owl-controls .owl-page.active span,
+ .carousel-control-1 .owl-controls.clickable .owl-page:hover span,
+ .carousel-control-2 .owl-controls .owl-page.active span,
+ .carousel-control-2 .owl-controls.clickable .owl-page:hover span {
+	background-color: #0199ed;
+	border: 1px solid #0199ed;
+}
+.blog-meta a:hover{
+    color:#0199ed;
+}
+.blog-content a:hover{
+    color:#0199ed;	
+}
+.blog-thumb ul.social-links li a:hover{
+   background-color:#0199ed;
+}
+.carousel-control-2 .owl-controls .owl-page.active span,
+ .carousel-control-1 .owl-controls.clickable .owl-page:hover span {
+	background-color: #0199ed;
+	border: 1px solid #0199ed;
+}
+.carousel-control-flat .owl-controls .owl-page.active span,
+ .carousel-control-flat .owl-controls.clickable .owl-page:hover span {
+	background-color: #0199ed;
+}
+.subscribe-submit:hover {
+    color: #0199ed;
+}
+.widget-right-info a:hover {
+	color:#0199ed;
+}
+.widget-blog-content a:hover{
+    color: #0199ed;
+}
+.corporate .contact-us .widget-contact i{
+	color:#0199ed;
+}
+.corporate .widget ul li a:hover, .corporate .widget ul li:hover::before{
+	color:#0199ed;		
+}
+.corporate .wedget-links a:hover{
+	color:#0199ed;
+}
+.post-meta a:hover{
+	color:#0199ed;
+}
+.entry-title a:hover{
+	color:#0199ed;		
+}
+.single-post .readmore:hover {
+	color:#0199ed;	
+}
+.post-thumbnail ul.social-links li a:hover{
+	background-color:#0199ed;
+}
+.post-style-2 .post-thumbnail > a::before {
+	background-color:#0199ed ;
+}
+.post-style-2 .post-meta {
+	background-color: #0199ed;
+}
+.post-style-2 .entry-title a:hover {
+	color:#0199ed;
+}
+.post-style-2 .readmore:hover {
+	background-color: #0199ed;
+}
+.post-style-2 .owl-theme .owl-controls {
+    margin-top: 0;
+}
+.post-style-2 .post-carousel .owl-controls .owl-buttons div:hover{
+	background-color:#0199ed;
+}
+.widget ul.tags-cloud-list li a:hover {
+	background-color:#0199ed;
+}
+.tabs.tabs-primary .nav-tabs li.active a, .tabs.tabs-primary .nav-tabs li a:hover {
+  border-top-color: #0199ed;
+  color: #0199ed;
+}
+.comment-box .comment-head i:hover {
+    color: #0199ed;
+}
+.btn.btn-404:hover{
+	background-color:#0199ed;
+}
+.search-wrap i:hover{
+	color:#0199ed;
+}
+/* ==========================  2.Construction Page colors ===============================*/
+.text-yellow{color:#0199ed !important;}
+.btn-con {
+	background: #0199ed none repeat scroll 0 0;
+}
+.btn-con.btn-borders:hover{
+	background:#0199ed;
+}
+.btn-warning{
+  background-color: #0199ed;	
+}
+.construction .single-mega-item li.menu-title::before {
+	background: #0199ed none repeat scroll 0 0;	
+} 
+.construction .main-menu > li:hover > a,
+ .construction .main-menu li ul > li:hover > a,
+ .construction .main-menu li ul li.has-child:hover > a::after,
+ .construction .main-menu > li a.active {
+    color: #0199ed;
+}
+.construction .breadcrumbs > li.active{
+	color:#0199ed;
+}
+.slider-construction .owl-controls .owl-page span {
+	border: 1px solid #0199ed;
+}
+.slider-construction .owl-controls .owl-page.active span,
+ .slider-construction .owl-controls.clickable .owl-page:hover span {
+	background: #0199ed none repeat scroll 0 0;
+	border: 1px solid #0199ed;
+}
+.construction a:hover{color:#0199ed;}
+ .construction .filter-catagory-menu li.active {
+	color: #0199ed;
+}
+.portfolio-small .ovrly-btns {
+	border: 1px solid #0199ed;
+	color: #0199ed;
+}
+.portfolio-small .ovrly-btns:hover{
+	background: #0199ed none repeat scroll 0 0;
+}
+.portfolio-small .portfolio-content > h6 a:hover {
+    color: #0199ed;
+}
+.const-member > h4 {
+	color: #0199ed;
+}
+.const-memeber-pic .overlay-content {
+	background-color:#0199ed;
+}
+.cons-testi-author > img {
+	border: 1px solid #0199ed;
+}
+.const-testimonials .slick-arrow:hover{
+	background:#0199ed;
+}
+.cons-testi-nav::before {
+	border-bottom: 1px dashed #0199ed;
+}
+
+.site-content .const-testimonials .slick-arrow:hover{
+	border: 1px solid #0199ed;
+}
+.const-bcontent h4.post-title a:hover{
+	color:#0199ed;
+}
+.construction .subscribe-submit:hover {
+    color: #0199ed;
+}
+.construction .widget-contact ul li i{
+	color:#0199ed;
+}
+.construction .color-secondary .footer-social-links ul.social-links > li > a:hover {
+	background:#0199ed;
+}
+.construction .footer-dark .footer-social-links ul.social-links > li > a:hover {
+	background:#0199ed;
+}
+.construction .color-secondary li a{
+	color: #0199ed;	
+}
+.accordion-quaternary .panel-default > .panel-heading {
+	background-color: #0199ed;
+}
+.alert-quaternary {
+	background-color: #0199ed;
+}
+ul.list-quaternary li:before,
+ ol.list-quaternary li:before{
+	background-color:#0199ed;	
+}
+ .controls-quaternary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #0199ed;
+}
+.call-to-action.callto-quaternary-borders{
+    color:#0199ed;
+}
+.call-to-action.callto-quaternary-borders h4{
+    color:#0199ed;
+}
+.call-to-action.callto-quaternary{
+	background-color:#0199ed;
+}
+.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
+    background-color: #0199ed;
+}
+blockquote.blockquote-quaternary {
+    border-color: #0199ed;
+}
+.label-quaternary {
+    background-color: #0199ed;
+}
+.tabs.tabs-quaternary .nav-tabs li.active a {
+	border-top-color: #0199ed;
+	color: #0199ed;
+}
+.tabs.tabs-quaternary .nav-tabs li a:hover{
+	color: #0199ed;
+    border-top-color:#0199ed;	
+}
+
+/* ================ 3. Ecommerce Page colors =============================*/
+.section-title.style-2 > h2::before {
+	background: #0199ed none repeat scroll 0 0;
+}
+.btn-brown {
+	background: #0199ed none repeat scroll 0 0;
+}
+.btn-brown.btn-borders:hover{
+	background: #0199ed  none repeat scroll 0 0;  
+}
+.btn-danger{
+	background-color: #0199ed;
+}
+.ecommerce .single-mega-item li.menu-title::before {
+	background: #0199ed none repeat scroll 0 0;	
+}
+.header-style-4 .main-menu > li:hover > a,
+ .header-style-4 .main-menu li ul > li:hover > a,
+ .header-style-4 .main-menu li ul li.has-child:hover > a::after,
+ .header-style-4 .main-menu > li a.active {
+    color: #0199ed;
+}
+.top-right-menu ul li.shiping-cart .item-no {
+	background: #0199ed none repeat scroll 0 0;
+}
+.top-right-menu > ul > li:hover > span > i,
+.top-right-menu > ul > li:hover > a > i{
+	color:#0199ed;
+}
+.cart-items-container .cart-buttons .btn,
+ .search-box-inner .submit {
+	background: #0199ed;
+}
+.slider-ecommerce .slide-content h3 {
+	color:#0199ed;
+}
+.slider-ecommerce .owl-controls .owl-buttons div:hover{
+	background:#0199ed;
+}
+#popular-products .filter-catagory-menu li.active{
+	color:#0199ed;
+}
+.product-buttons > a:hover{
+	color:#0199ed;
+}
+.product-name > a:hover{
+	color:#0199ed;
+}
+.fasion-testimonials .slick-arrow:hover {
+	background:#0199ed;
+}
+.thub-link > a {
+	color: #0199ed;
+}
+.thub-link > a:hover{
+	background-color:#0199ed;
+}
+.fasion-bcontent > h5 a:hover, .fasion-bcontent a:hover{
+	color:#0199ed;
+}
+.product-size > ul > li > a:hover{
+	background:#0199ed;
+}
+.tab-bar > li.active > a, .tab-bar > li:hover > a{
+	color:#0199ed;
+}
+.products-listview-inner .single-product a:hover{
+	color:#0199ed;	
+}
+ul.default-pagination li a:hover, ul.default-pagination li.current a{
+	color:#0199ed;
+}
+.ecommerce .widget ul li a:hover, .ecommerce .widget ul li:hover::before{
+	color:#0199ed;		
+}
+.price_filter .ui-slider-range {
+    background-color: #0199ed;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all {
+	border: 6px solid #0199ed;
+}
+.cart-table td a:hover{
+	color:#0199ed;
+}
+.widget-subscripbe .widget-sbtn:hover{
+	color:#0199ed;
+}
+.widget-contact ul li a:hover{
+	color:#0199ed;
+}
+.wedget-links a:hover{
+	color:#0199ed;
+}
+.details-thumb-small .slick-arrow:hover{;
+}
+.description-tab-menu ul li.active a,
+ .description-tab-menu ul li a:hover{
+	color:#0199ed;
+ }
+.ecommerce .color-secondary a:hover{
+	color:#0199ed;
+}
+.ecommerce .footer-dark a:hover{
+	color:#0199ed;
+}
+.accordion-secondary .panel-default > .panel-heading {
+	background-color: #0199ed;
+}
+.alert-secondary {
+	background-color: #0199ed;
+}
+ul.list-style-2.list-secondary li:before,
+ ol.list-style-2.list-secondary li:before{
+	color:#0199ed;	
+}
+ul.list-style-3.list-secondary li:before,
+ ol.list-style-3.list-secondary li:before{
+	color:#0199ed;
+}
+ul.list-secondary li:before,
+ ol.list-secondary li:before{
+	background-color:#0199ed;	
+}
+ .controls-secondary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #0199ed;
+}
+.call-to-action.callto-secondary-borders{
+	border: 1px solid #0199ed;
+    color:#0199ed;
+}
+.call-to-action.callto-secondary-borders h4{
+    color:#0199ed;
+}
+.call-to-action.callto-secondary{
+	background-color:#0199ed;
+}
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+    background-color: #0199ed;
+}
+blockquote.blockquote-secondary {
+    border-color: #0199ed;
+}
+.label-secondary {
+    background-color: #0199ed;
+}
+.tabs.tabs-secondary .nav-tabs li.active a {
+	border-top-color: #0199ed;
+	color: #0199ed;
+}
+.tabs.tabs-secondary .nav-tabs li a:hover{
+	color: #0199ed;
+    border-top-color:#0199ed;	
+}
+
+/* ==========================================4. Medical Page colors======================================== */
+.text-blue{color:#0199ed !important;}
+.btn-med{
+	background: #0199ed  none repeat scroll 0 0;
+}
+.btn-med.btn-borders:hover{
+	background:#0199ed;
+}
+.btn-primary{
+	background-color: #0199ed;
+}
+.medical .single-mega-item li.menu-title::before {
+	background: #0199ed none repeat scroll 0 0;	
+}
+.medical .header-top-bar {
+    background-color: #0199ed;
+}
+.medical .main-menu > li:hover > a,
+ .medical .main-menu li ul > li:hover > a,
+ .medical .main-menu li ul li.has-child:hover > a::after,
+ .medical .main-menu > li a.active {
+    color: #0199ed;
+}
+.medical .breadcrumbs > li.active{
+	color:#0199ed;
+}
+.slider-medical .owl-controls .owl-page.active span,
+ .slider-medical .owl-controls.clickable .owl-page:hover span {
+	background: #0199ed none repeat scroll 0 0;
+}
+.slider-medical .owl-controls .owl-page.active,
+ .slider-medical .owl-controls .owl-page:hover {
+	border: 1px solid #0199ed;
+}
+.brand-style-5 .single-brand:hover{
+    border:1px solid #0199ed;
+}
+.medical-service:hover .service-icon > i{
+	background: #0199ed none repeat scroll 0 0; 
+}
+.medical-service:hover .service-icon{
+	border:1px solid #0199ed;
+}
+.doctors-inner .slick-arrow:hover{
+	color:#0199ed;
+}
+.doctor-info::before {
+	background-color: #0199ed;
+}
+#patient-quotes .owl-controls .owl-prev:hover, #patient-quotes .owl-controls .owl-next:hover{
+	color:#0199ed;
+}
+.plan-2.plan-active{
+	background:#0199ed;
+}
+.plan-2.plan-active .plan-name span, .plan-2:hover .plan-name span  {
+	background: #0199ed none repeat scroll 0 0;
+}
+.single-plan.plan-2:hover {
+	background: #0199ed none repeat scroll 0 0;
+}
+.medical .color-secondary a:hover{
+	color:#0199ed;
+}
+.medical .footer-dark a:hover{
+	color:#0199ed;
+}
+.medi-blog-thumb > a::before {
+	background-color: #0199ed;
+}
+.medi-bmeta {
+	background: #0199ed none repeat scroll 0 0;
+}
+.medical .post-style-2 .post-thumbnail > a::before {
+	background-color:#0199ed;
+}
+.medical .post-style-2 .post-meta {
+    background-color: #0199ed;
+}
+.medical .post-style-2 .readmore:hover {
+	background-color: #0199ed;
+}
+.medical .post-style-2 .post-carousel .owl-controls .owl-buttons div:hover{
+	background-color:#0199ed;
+}
+.medical .widget ul li a:hover, .medical .widget ul li:hover::before{
+	color:#0199ed;		
+}
+.medical .widget ul.tags-cloud-list li a:hover {
+	background-color:#0199ed;
+}
+.medical .widget-right-info a:hover {
+	color:#0199ed;
+}
+.accordion-tertiary .panel-default > .panel-heading {
+	background-color: #0199ed;
+}
+.alert-tertiary {
+	background-color: #0199ed;
+}
+ul.list-tertiary li:before,
+ ol.list-tertiary li:before{
+	background-color:#0199ed;	
+}
+ .controls-tertiary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #0199ed;
+}
+.call-to-action.callto-tertiary-borders{
+	border: 1px solid #0199ed;
+    color:#0199ed;
+}
+.call-to-action.callto-tertiary-borders h4{
+    color:#0199ed;
+}
+.call-to-action.callto-tertiary{
+	background-color:#0199ed;
+}
+.table > thead > tr > td.primary, .table > tbody > tr > td.primary, .table > tfoot > tr > td.primary, .table > thead > tr > th.primary, .table > tbody > tr > th.primary, .table > tfoot > tr > th.primary, .table > thead > tr.primary > td, .table > tbody > tr.primary > td, .table > tfoot > tr.primary > td, .table > thead > tr.primary > th, .table > tbody > tr.primary > th, .table > tfoot > tr.primary > th {
+    background-color: #0199ed;
+}
+blockquote.blockquote-tertiary {
+    border-color: #0199ed;
+}
+.label-tertiary {
+    background-color: #0199ed;
+}
+.tabs.tabs-tertiary .nav-tabs li.active a {
+	border-top-color: #0199ed;
+	color: #0199ed;
+}
+.tabs.tabs-tertiary .nav-tabs li a:hover{
+	color: #0199ed;
+    border-top-color:#0199ed;	
+}
+
+/*=================================== 5. Resturant Page colors ================================================*/
+.text-golden{color:#0199ed !important;}
+.btn-gold{
+	background: #0199ed  none repeat scroll 0 0;
+}
+.btn-gold.btn-borders:hover{
+	background:#0199ed;
+}
+.resturant .single-mega-item li.menu-title::before {
+	background: #0199ed none repeat scroll 0 0;	
+}
+.header-style-3 .main-menu > li:hover > a,
+ .header-style-3 .main-menu li ul > li:hover > a,
+ .header-style-3 .main-menu li ul li.has-child:hover > a::after,
+ .header-style-3 .main-menu > li a.active {
+    color: #0199ed;
+}
+.resturant .breadcrumbs > li.active{
+	color:#0199ed;
+}
+.slider-resturant .owl-controls .owl-page.active span,
+.slider-resturant .owl-controls.clickable .owl-page:hover span {
+  background: #0199ed none repeat scroll 0 0;
+}
+.chef-pic {
+	background: #0199ed none repeat scroll 0 0;
+}
+.test-author-pic {
+	border: 2px solid #0199ed;
+}
+.rest-testimonials .slick-arrow:hover{
+    color: #0199ed;	
+}
+.resturant .color-secondary a:hover{
+	color:#0199ed;
+}
+.resturant .footer-dark a:hover{
+	color:#0199ed;
+}
+.alert-quinary {
+	background-color: #0199ed;
+}
+
+/* Travel Page colors */
+.btn-tra {
+	background: #0199ed none repeat scroll 0 0;
+}
+.btn-tra.btn-borders:hover{
+	background:#0199ed;
+}
+.travel .single-mega-item li.menu-title::before {
+	background: #0199ed none repeat scroll 0 0;	
+}
+.travel .main-menu > li:hover > a,
+ .travel .main-menu li ul > li:hover > a,
+ .travel .main-menu li ul li.has-child:hover > a::after,
+ .travel .main-menu > li a.active {
+    color: #0199ed;
+}
+.cart-items-container  a:hover{
+    color:#0199ed;	
+}
+.item-product-cart a.remove-btn:hover{
+	color:#0199ed;
+	border: 1px solid #0199ed;	
+}
+.travel .breadcrumbs > li.active{
+	color:#0199ed;
+}
+.slider-resturant .slide-content h1 span{
+    color:#0199ed;	
+}
+.slider-travel .slide-content h1 span{
+   color:#0199ed;	
+}
+#slider-container .slider-travel .owl-controls .owl-page.active span,
+ #slider-container .slider-travel .owl-controls.clickable .owl-page:hover span {
+    color:#0199ed;
+}
+.slider-ecommerce .slide-content h1 span{
+   color:#0199ed;	
+}
+.plan-active .plan-name {
+    background: #0199ed none repeat scroll 0 0;
+}
+.plan-active .plan-name::before {
+    background: #0199ed none repeat scroll 0 0;
+}
+.testimonials-inner .slider-for .slick-arrow:hover{
+	color:#0199ed;
+}
+.tb-post > h4.tb-title a:hover,
+ .tb-meta a:hover{
+	color:#0199ed
+}
+.travel .color-secondary a:hover{
+	color:#0199ed;
+}
+.travel .footer-dark a:hover{
+	color:#0199ed;
+}

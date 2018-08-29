@@ -1,0 +1,677 @@
+
+/* ========================1. Corporate Page colors =================================*/
+a{color:#fcda9a;}
+.btn-cor.btn-borders:hover{
+	background-color: #fcda9a;
+}
+.btn-load.btn-borders:hover{
+	background-color: #fcda9a;
+}
+.btn-cor{
+	background-color: #fcda9a;
+}
+.btn-success{
+	background-color: #fcda9a;
+}
+.header-top-bar {
+	background-color: #fcda9a ;
+}
+.topbar-stylish {
+	border-top: 20px solid #fcda9a;
+}
+.topbar-stylish-inner {
+	background-color: #fcda9a;
+}
+.main-menu > li:hover > a,.main-menu li ul > li:hover > a,
+.main-menu li ul li.has-child:hover > a::after,
+.main-menu > li a.active {
+    color: #fcda9a;
+}
+.single-mega-item li.menu-title::before {
+	background-color: #fcda9a;
+}
+.mega-menu-form .single-field > input:focus,
+.mega-menu-form .single-field > textarea:focus {
+    border: 1px solid #fcda9a;
+}
+.btn.menu-btn:hover {
+	background-color: #fcda9a;
+	border: 1px solid #fcda9a;
+}
+.src-btn:hover{
+	color:#fcda9a;
+}
+.corporate .breadcrumbs > li.active{
+	color:#fcda9a;
+}
+.unify-owl-slider .owl-controls .owl-page.active span,
+.unify-owl-slider .owl-controls.clickable .owl-page:hover span {
+	background-color: #fcda9a;
+	border: 1px solid #fcda9a;
+}
+.service-item:hover > i {
+	color: #fcda9a;
+}
+.filter-catagory-menu li:hover,
+ .filter-catagory-menu li.active{
+    color:#fcda9a;
+}
+.portfolio-content > h6 a:hover{
+	color:#fcda9a;
+}
+.ovrly-btns {
+	background-color: #fcda9a;
+}
+.ovrly-btns:hover{
+	color: #fcda9a;
+}
+.about-left::before {
+	background-color: #fcda9a;
+}
+.progress-item .progress-bar {
+    background-color: #fcda9a;
+}
+.social-links > li > a:hover{
+	color:#fcda9a;
+}
+.carousel-control-1 .owl-controls .owl-page.active span,
+ .carousel-control-1 .owl-controls.clickable .owl-page:hover span,
+ .carousel-control-2 .owl-controls .owl-page.active span,
+ .carousel-control-2 .owl-controls.clickable .owl-page:hover span {
+	background-color: #fcda9a;
+	border: 1px solid #fcda9a;
+}
+.blog-meta a:hover{
+    color:#fcda9a;
+}
+.blog-content a:hover{
+    color:#fcda9a;	
+}
+.blog-thumb ul.social-links li a:hover{
+   background-color:#fcda9a;
+}
+.carousel-control-2 .owl-controls .owl-page.active span,
+ .carousel-control-1 .owl-controls.clickable .owl-page:hover span {
+	background-color: #fcda9a;
+	border: 1px solid #fcda9a;
+}
+.carousel-control-flat .owl-controls .owl-page.active span,
+ .carousel-control-flat .owl-controls.clickable .owl-page:hover span {
+	background-color: #fcda9a;
+}
+.subscribe-submit:hover {
+    color: #fcda9a;
+}
+.widget-right-info a:hover {
+	color:#fcda9a;
+}
+.widget-blog-content a:hover{
+    color: #fcda9a;
+}
+.corporate .contact-us .widget-contact i{
+	color:#fcda9a;
+}
+.corporate .widget ul li a:hover, .corporate .widget ul li:hover::before{
+	color:#fcda9a;		
+}
+.corporate .wedget-links a:hover{
+	color:#fcda9a;
+}
+.post-meta a:hover{
+	color:#fcda9a;
+}
+.entry-title a:hover{
+	color:#fcda9a;		
+}
+.single-post .readmore:hover {
+	color:#fcda9a;	
+}
+.post-thumbnail ul.social-links li a:hover{
+	background-color:#fcda9a;
+}
+.post-style-2 .post-thumbnail > a::before {
+	background-color:#fcda9a ;
+}
+.post-style-2 .post-meta {
+	background-color: #fcda9a;
+}
+.post-style-2 .entry-title a:hover {
+	color:#fcda9a;
+}
+.post-style-2 .readmore:hover {
+	background-color: #fcda9a;
+}
+.post-style-2 .owl-theme .owl-controls {
+    margin-top: 0;
+}
+.post-style-2 .post-carousel .owl-controls .owl-buttons div:hover{
+	background-color:#fcda9a;
+}
+.widget ul.tags-cloud-list li a:hover {
+	background-color:#fcda9a;
+}
+.tabs.tabs-primary .nav-tabs li.active a, .tabs.tabs-primary .nav-tabs li a:hover {
+  border-top-color: #fcda9a;
+  color: #fcda9a;
+}
+.comment-box .comment-head i:hover {
+    color: #fcda9a;
+}
+.btn.btn-404:hover{
+	background-color:#fcda9a;
+}
+.search-wrap i:hover{
+	color:#fcda9a;
+}
+/* ==========================  2.Construction Page colors ===============================*/
+.text-yellow{color:#fcda9a !important;}
+.btn-con {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.btn-con.btn-borders:hover{
+	background:#fcda9a;
+}
+.btn-warning{
+  background-color: #fcda9a;	
+}
+.construction .single-mega-item li.menu-title::before {
+	background: #fcda9a none repeat scroll 0 0;	
+} 
+.construction .main-menu > li:hover > a,
+ .construction .main-menu li ul > li:hover > a,
+ .construction .main-menu li ul li.has-child:hover > a::after,
+ .construction .main-menu > li a.active {
+    color: #fcda9a;
+}
+.construction .breadcrumbs > li.active{
+	color:#fcda9a;
+}
+.slider-construction .owl-controls .owl-page span {
+	border: 1px solid #fcda9a;
+}
+.slider-construction .owl-controls .owl-page.active span,
+ .slider-construction .owl-controls.clickable .owl-page:hover span {
+	background: #fcda9a none repeat scroll 0 0;
+	border: 1px solid #fcda9a;
+}
+.construction a:hover{color:#fcda9a;}
+ .construction .filter-catagory-menu li.active {
+	color: #fcda9a;
+}
+.portfolio-small .ovrly-btns {
+	border: 1px solid #fcda9a;
+	color: #fcda9a;
+}
+.portfolio-small .ovrly-btns:hover{
+	background: #fcda9a none repeat scroll 0 0;
+}
+.portfolio-small .portfolio-content > h6 a:hover {
+    color: #fcda9a;
+}
+.const-member > h4 {
+	color: #fcda9a;
+}
+.const-memeber-pic .overlay-content {
+	background-color:#fcda9a;
+}
+.cons-testi-author > img {
+	border: 1px solid #fcda9a;
+}
+.const-testimonials .slick-arrow:hover{
+	background:#fcda9a;
+}
+.cons-testi-nav::before {
+	border-bottom: 1px dashed #fcda9a;
+}
+
+.site-content .const-testimonials .slick-arrow:hover{
+	border: 1px solid #fcda9a;
+}
+.const-bcontent h4.post-title a:hover{
+	color:#fcda9a;
+}
+.construction .subscribe-submit:hover {
+    color: #fcda9a;
+}
+.construction .widget-contact ul li i{
+	color:#fcda9a;
+}
+.construction .color-secondary .footer-social-links ul.social-links > li > a:hover {
+	background:#fcda9a;
+}
+.construction .footer-dark .footer-social-links ul.social-links > li > a:hover {
+	background:#fcda9a;
+}
+.construction .color-secondary li a{
+	color: #fcda9a;	
+}
+.accordion-quaternary .panel-default > .panel-heading {
+	background-color: #fcda9a;
+}
+.alert-quaternary {
+	background-color: #fcda9a;
+}
+ul.list-quaternary li:before,
+ ol.list-quaternary li:before{
+	background-color:#fcda9a;	
+}
+ .controls-quaternary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #fcda9a;
+}
+.call-to-action.callto-quaternary-borders{
+    color:#fcda9a;
+}
+.call-to-action.callto-quaternary-borders h4{
+    color:#fcda9a;
+}
+.call-to-action.callto-quaternary{
+	background-color:#fcda9a;
+}
+.table > thead > tr > td.warning, .table > tbody > tr > td.warning, .table > tfoot > tr > td.warning, .table > thead > tr > th.warning, .table > tbody > tr > th.warning, .table > tfoot > tr > th.warning, .table > thead > tr.warning > td, .table > tbody > tr.warning > td, .table > tfoot > tr.warning > td, .table > thead > tr.warning > th, .table > tbody > tr.warning > th, .table > tfoot > tr.warning > th {
+    background-color: #fcda9a;
+}
+blockquote.blockquote-quaternary {
+    border-color: #fcda9a;
+}
+.label-quaternary {
+    background-color: #fcda9a;
+}
+.tabs.tabs-quaternary .nav-tabs li.active a {
+	border-top-color: #fcda9a;
+	color: #fcda9a;
+}
+.tabs.tabs-quaternary .nav-tabs li a:hover{
+	color: #fcda9a;
+    border-top-color:#fcda9a;	
+}
+
+/* ================ 3. Ecommerce Page colors =============================*/
+.section-title.style-2 > h2::before {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.btn-brown {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.btn-brown.btn-borders:hover{
+	background: #fcda9a  none repeat scroll 0 0;  
+}
+.btn-danger{
+	background-color: #fcda9a;
+}
+.ecommerce .single-mega-item li.menu-title::before {
+	background: #fcda9a none repeat scroll 0 0;	
+}
+.header-style-4 .main-menu > li:hover > a,
+ .header-style-4 .main-menu li ul > li:hover > a,
+ .header-style-4 .main-menu li ul li.has-child:hover > a::after,
+ .header-style-4 .main-menu > li a.active {
+    color: #fcda9a;
+}
+.top-right-menu ul li.shiping-cart .item-no {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.top-right-menu > ul > li:hover > span > i,
+.top-right-menu > ul > li:hover > a > i{
+	color:#fcda9a;
+}
+.cart-items-container .cart-buttons .btn,
+ .search-box-inner .submit {
+	background: #fcda9a;
+}
+.slider-ecommerce .slide-content h3 {
+	color:#fcda9a;
+}
+.slider-ecommerce .owl-controls .owl-buttons div:hover{
+	background:#fcda9a;
+}
+#popular-products .filter-catagory-menu li.active{
+	color:#fcda9a;
+}
+.product-buttons > a:hover{
+	color:#fcda9a;
+}
+.product-name > a:hover{
+	color:#fcda9a;
+}
+.fasion-testimonials .slick-arrow:hover {
+	background:#fcda9a;
+}
+.thub-link > a {
+	color: #fcda9a;
+}
+.thub-link > a:hover{
+	background-color:#fcda9a;
+}
+.fasion-bcontent > h5 a:hover, .fasion-bcontent a:hover{
+	color:#fcda9a;
+}
+.product-size > ul > li > a:hover{
+	background:#fcda9a;
+}
+.tab-bar > li.active > a, .tab-bar > li:hover > a{
+	color:#fcda9a;
+}
+.products-listview-inner .single-product a:hover{
+	color:#fcda9a;	
+}
+ul.default-pagination li a:hover, ul.default-pagination li.current a{
+	color:#fcda9a;
+}
+.ecommerce .widget ul li a:hover, .ecommerce .widget ul li:hover::before{
+	color:#fcda9a;		
+}
+.price_filter .ui-slider-range {
+    background-color: #fcda9a;
+}
+.ui-slider-handle.ui-state-default.ui-corner-all {
+	border: 6px solid #fcda9a;
+}
+.cart-table td a:hover{
+	color:#fcda9a;
+}
+.widget-subscripbe .widget-sbtn:hover{
+	color:#fcda9a;
+}
+.wedget-links a:hover{
+	color:#fcda9a;
+}
+.widget-contact ul li a:hover{
+	color:#fcda9a;
+}
+.details-thumb-small .slick-arrow:hover{;
+}
+.description-tab-menu ul li.active a,
+ .description-tab-menu ul li a:hover{
+	color:#fcda9a;
+ }
+.ecommerce .color-secondary a:hover{
+	color:#fcda9a;
+}
+.ecommerce .footer-dark a:hover{
+	color:#fcda9a;
+}
+.accordion-secondary .panel-default > .panel-heading {
+	background-color: #fcda9a;
+}
+.alert-secondary {
+	background-color: #fcda9a;
+}
+ul.list-style-2.list-secondary li:before,
+ ol.list-style-2.list-secondary li:before{
+	color:#fcda9a;	
+}
+ul.list-style-3.list-secondary li:before,
+ ol.list-style-3.list-secondary li:before{
+	color:#fcda9a;
+}
+ul.list-secondary li:before,
+ ol.list-secondary li:before{
+	background-color:#fcda9a;	
+}
+ .controls-secondary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #fcda9a;
+}
+.call-to-action.callto-secondary-borders{
+	border: 1px solid #fcda9a;
+    color:#fcda9a;
+}
+.call-to-action.callto-secondary-borders h4{
+    color:#fcda9a;
+}
+.call-to-action.callto-secondary{
+	background-color:#fcda9a;
+}
+.table > thead > tr > td.danger, .table > tbody > tr > td.danger, .table > tfoot > tr > td.danger, .table > thead > tr > th.danger, .table > tbody > tr > th.danger, .table > tfoot > tr > th.danger, .table > thead > tr.danger > td, .table > tbody > tr.danger > td, .table > tfoot > tr.danger > td, .table > thead > tr.danger > th, .table > tbody > tr.danger > th, .table > tfoot > tr.danger > th {
+    background-color: #fcda9a;
+}
+blockquote.blockquote-secondary {
+    border-color: #fcda9a;
+}
+.label-secondary {
+    background-color: #fcda9a;
+}
+.tabs.tabs-secondary .nav-tabs li.active a {
+	border-top-color: #fcda9a;
+	color: #fcda9a;
+}
+.tabs.tabs-secondary .nav-tabs li a:hover{
+	color: #fcda9a;
+    border-top-color:#fcda9a;	
+}
+
+/* ==========================================4. Medical Page colors======================================== */
+.text-blue{color:#fcda9a !important;}
+.btn-med{
+	background: #fcda9a  none repeat scroll 0 0;
+}
+.btn-med.btn-borders:hover{
+	background:#fcda9a;
+}
+.btn-primary{
+	background-color: #fcda9a;
+}
+.medical .single-mega-item li.menu-title::before {
+	background: #fcda9a none repeat scroll 0 0;	
+}
+.medical .header-top-bar {
+    background-color: #fcda9a;
+}
+.medical .main-menu > li:hover > a,
+ .medical .main-menu li ul > li:hover > a,
+ .medical .main-menu li ul li.has-child:hover > a::after,
+ .medical .main-menu > li a.active {
+    color: #fcda9a;
+}
+.medical .breadcrumbs > li.active{
+	color:#fcda9a;
+}
+.slider-medical .owl-controls .owl-page.active span,
+ .slider-medical .owl-controls.clickable .owl-page:hover span {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.slider-medical .owl-controls .owl-page.active,
+ .slider-medical .owl-controls .owl-page:hover {
+	border: 1px solid #fcda9a;
+}
+.brand-style-5 .single-brand:hover{
+    border:1px solid #fcda9a;
+}
+.medical-service:hover .service-icon > i{
+	background: #fcda9a none repeat scroll 0 0; 
+}
+.medical-service:hover .service-icon{
+	border:1px solid #fcda9a;
+}
+.doctors-inner .slick-arrow:hover{
+	color:#fcda9a;
+}
+.doctor-info::before {
+	background-color: #fcda9a;
+}
+#patient-quotes .owl-controls .owl-prev:hover, #patient-quotes .owl-controls .owl-next:hover{
+	color:#fcda9a;
+}
+.plan-2.plan-active{
+	background:#fcda9a;
+}
+.plan-2.plan-active .plan-name span, .plan-2:hover .plan-name span  {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.single-plan.plan-2:hover {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.medical .color-secondary a:hover{
+	color:#fcda9a;
+}
+.medical .footer-dark a:hover{
+	color:#fcda9a;
+}
+.medi-blog-thumb > a::before {
+	background-color: #fcda9a;
+}
+.medi-bmeta {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.medical .post-style-2 .post-thumbnail > a::before {
+	background-color:#fcda9a;
+}
+.medical .post-style-2 .post-meta {
+    background-color: #fcda9a;
+}
+.medical .post-style-2 .readmore:hover {
+	background-color: #fcda9a;
+}
+.medical .post-style-2 .post-carousel .owl-controls .owl-buttons div:hover{
+	background-color:#fcda9a;
+}
+.medical .widget ul li a:hover, .medical .widget ul li:hover::before{
+	color:#fcda9a;		
+}
+.medical .widget ul.tags-cloud-list li a:hover {
+	background-color:#fcda9a;
+}
+.medical .widget-right-info a:hover {
+	color:#fcda9a;
+}
+.accordion-tertiary .panel-default > .panel-heading {
+	background-color: #fcda9a;
+}
+.alert-tertiary {
+	background-color: #fcda9a;
+}
+ul.list-tertiary li:before,
+ ol.list-tertiary li:before{
+	background-color:#fcda9a;	
+}
+ .controls-tertiary.owl-theme .owl-controls .owl-buttons div {
+	background-color: #fcda9a;
+}
+.call-to-action.callto-tertiary-borders{
+	border: 1px solid #fcda9a;
+    color:#fcda9a;
+}
+.call-to-action.callto-tertiary-borders h4{
+    color:#fcda9a;
+}
+.call-to-action.callto-tertiary{
+	background-color:#fcda9a;
+}
+.table > thead > tr > td.primary, .table > tbody > tr > td.primary, .table > tfoot > tr > td.primary, .table > thead > tr > th.primary, .table > tbody > tr > th.primary, .table > tfoot > tr > th.primary, .table > thead > tr.primary > td, .table > tbody > tr.primary > td, .table > tfoot > tr.primary > td, .table > thead > tr.primary > th, .table > tbody > tr.primary > th, .table > tfoot > tr.primary > th {
+    background-color: #fcda9a;
+}
+blockquote.blockquote-tertiary {
+    border-color: #fcda9a;
+}
+.label-tertiary {
+    background-color: #fcda9a;
+}
+.tabs.tabs-tertiary .nav-tabs li.active a {
+	border-top-color: #fcda9a;
+	color: #fcda9a;
+}
+.tabs.tabs-tertiary .nav-tabs li a:hover{
+	color: #fcda9a;
+    border-top-color:#fcda9a;	
+}
+
+/*=================================== 5. Resturant Page colors ================================================*/
+.text-golden{color:#fcda9a !important;}
+.btn-gold{
+	background: #fcda9a  none repeat scroll 0 0;
+}
+.btn-gold.btn-borders:hover{
+	background:#fcda9a;
+}
+.resturant .single-mega-item li.menu-title::before {
+	background: #fcda9a none repeat scroll 0 0;	
+}
+.header-style-3 .main-menu > li:hover > a,
+ .header-style-3 .main-menu li ul > li:hover > a,
+ .header-style-3 .main-menu li ul li.has-child:hover > a::after,
+ .header-style-3 .main-menu > li a.active {
+    color: #fcda9a;
+}
+.resturant .breadcrumbs > li.active{
+	color:#fcda9a;
+}
+.slider-resturant .owl-controls .owl-page.active span,
+.slider-resturant .owl-controls.clickable .owl-page:hover span {
+  background: #fcda9a none repeat scroll 0 0;
+}
+.chef-pic {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.test-author-pic {
+	border: 2px solid #fcda9a;
+}
+.rest-testimonials .slick-arrow:hover{
+    color: #fcda9a;	
+}
+.resturant .color-secondary a:hover{
+	color:#fcda9a;
+}
+.resturant .footer-dark a:hover{
+	color:#fcda9a;
+}
+.alert-quinary {
+	background-color: #fcda9a;
+}
+
+/* Travel Page colors */
+.btn-tra {
+	background: #fcda9a none repeat scroll 0 0;
+}
+.btn-tra.btn-borders:hover{
+	background:#fcda9a;
+}
+.travel .single-mega-item li.menu-title::before {
+	background: #fcda9a none repeat scroll 0 0;	
+}
+.travel .main-menu > li:hover > a,
+ .travel .main-menu li ul > li:hover > a,
+ .travel .main-menu li ul li.has-child:hover > a::after,
+ .travel .main-menu > li a.active {
+    color: #fcda9a;
+}
+.cart-items-container  a:hover{
+    color:#fcda9a;	
+}
+.item-product-cart a.remove-btn:hover{
+	color:#fcda9a;
+	border: 1px solid #fcda9a;	
+}
+.travel .breadcrumbs > li.active{
+	color:#fcda9a;
+}
+.slider-resturant .slide-content h1 span{
+    color:#fcda9a;	
+}
+.slider-travel .slide-content h1 span{
+   color:#fcda9a;	
+}
+#slider-container .slider-travel .owl-controls .owl-page.active span,
+ #slider-container .slider-travel .owl-controls.clickable .owl-page:hover span {
+    color:#fcda9a;
+}
+.slider-ecommerce .slide-content h1 span{
+   color:#fcda9a;	
+}
+.plan-active .plan-name {
+    background: #fcda9a none repeat scroll 0 0;
+}
+.plan-active .plan-name::before {
+    background: #fcda9a none repeat scroll 0 0;
+}
+.testimonials-inner .slider-for .slick-arrow:hover{
+	color:#fcda9a;
+}
+.tb-post > h4.tb-title a:hover,
+ .tb-meta a:hover{
+	color:#fcda9a
+}
+.travel .color-secondary a:hover{
+	color:#fcda9a;
+}
+.travel .footer-dark a:hover{
+	color:#fcda9a;
+}
