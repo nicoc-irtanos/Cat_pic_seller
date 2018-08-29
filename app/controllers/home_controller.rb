@@ -7,7 +7,7 @@ class HomeController < ApplicationController
 
   def checkout
   end
-  
+
   def profil
   end
 
@@ -28,5 +28,7 @@ class HomeController < ApplicationController
   end
   def new_collection
   end
+  def confirmation
+  end 
 
 end
