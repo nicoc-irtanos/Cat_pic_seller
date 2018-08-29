@@ -4,7 +4,7 @@ Template URI: www.bootitems.com
 Description: This is a multipurpose html5 template
 Author: Masud Rana
 Author URI: www.bootitems.com
-Version: 1.0  
+Version: 1.0
 
 NOTE: This is Header style file. All Header related style included in this file.
 -----------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ CSS INDEX
 	  1.4 Typography
 	  1.5 Other Fixes
 	2. Basic margin paddings
-	3. Background variation set 
+	3. Background variation set
 	4. Section Title Styles
 	5. Buttons
 	6. Basic Form Styles
@@ -93,8 +93,8 @@ h2 a,
 h3 a,
 h4 a,
 h5 a,
-h6 a { 
-    color: inherit 
+h6 a {
+    color: inherit
 }
 /***************************
     1.3 Transtions
@@ -168,7 +168,7 @@ b, strong {
     font-weight: 600;
 }
 /*  List Style */
-ul{ 
+ul{
 	margin:0;
 	padding:0;
 	list-style:none;
@@ -467,7 +467,7 @@ img {
 	width:80%;
 }
 /*==================================
-  3. Background variation set 
+  3. Background variation set
 ====================================*/
 .gray-bg{
 	background:#f0f0f0;
@@ -518,7 +518,7 @@ img {
 /*=======================================
  4. Section Title Styles
 =========================================*/
- 
+
 /* Default Section Title */
 .section-title {
 	margin-bottom: 25px;
@@ -557,7 +557,7 @@ img {
     color:#f5f5f5;
 }
 .white-heading > h2:before{
-    background:#fff;	
+    background:#fff;
 }
 /* Corporate Section Title */
 .corporate .section-title {
@@ -569,7 +569,7 @@ img {
 /* Travel Section Title */
 .section-title.simple-style > h2::before {
 	display:none;
-} 
+}
 /* Medical Section Title */
 .section-title.pulse-style {
     margin-bottom: 35px;
@@ -645,7 +645,7 @@ img {
 .btn-borders{
 	background: transparent none repeat scroll 0 0;
 	border: 1px solid #353535;
-	color: #353535;	
+	color: #353535;
 }
 .btn-borders:hover {
 	background: #353535 none repeat scroll 0 0;
@@ -655,12 +655,12 @@ img {
 /* Corporate Page Buttons */
 .btn-cor.btn-borders{
 	background: transparent none repeat scroll 0 0;
-	border: 1px solid #353535;		
-	color: #353535;	
+	border: 1px solid #353535;
+	color: #353535;
 }
 .btn-cor.btn-borders:hover{
 	background-color: #8ec448;
-	color: #fff;	
+	color: #fff;
 }
 .btn-load.btn-borders {
 	background: #f1f1f1 none repeat scroll 0 0;
@@ -700,9 +700,9 @@ img {
 	padding: 4px 20px;
 }
 .btn-tra:hover{
-	background: #d21e2d none repeat scroll 0 0;	
+	background: #d21e2d none repeat scroll 0 0;
 	color:#fff;
-} 
+}
 .btn-tra.btn-borders{
 	border:1px solid #353535;
 	color:#353535;
@@ -720,12 +720,12 @@ img {
 	font-size: 16px;
 	font-weight: 700;
 	letter-spacing: 0;
-	padding: 4px 20px;	
+	padding: 4px 20px;
 }
 .btn-med:hover{
-	background: #008ddb none repeat scroll 0 0;	
+	background: #008ddb none repeat scroll 0 0;
 	color:#fff;
-} 
+}
 .btn-med.btn-borders{
 	background:transparent;
 	color:#353535;
@@ -742,9 +742,9 @@ img {
 }
 .btn-con:hover{
 	border:1px solid #c58100;
-	color: #ffffff !important;	
-	background: #e09507 none repeat scroll 0 0;	
-} 
+	color: #ffffff !important;
+	background: #e09507 none repeat scroll 0 0;
+}
 /* Resturant page Button */
 .btn.btn-gold{
 	background: #fcda9a  none repeat scroll 0 0;
@@ -754,7 +754,7 @@ img {
 .btn-gold:hover{
 	background: #d9ad5a  none repeat scroll 0 0;
 	color: #353535;
-} 
+}
 .btn-gold.btn-borders{
 	background:transparent;
 }
@@ -775,7 +775,7 @@ img {
 }
 .btn-brown:hover{
 	background: #ad2018  none repeat scroll 0 0;
-	color: #fff;	 	
+	color: #fff;
 }
 .btn-brown.btn-borders{
 	background-color:transparent;
@@ -783,7 +783,7 @@ img {
 }
 .btn-brown.btn-borders:hover{
 	background: #b83932  none repeat scroll 0 0;
-	color: #fff;	
+	color: #fff;
 	border:1px solid rgba(0, 0, 0, 0.1);
 }
 .top-cat-overlay > h4 {
@@ -794,7 +794,7 @@ img {
 	line-height: 40px;
 	margin-bottom: 0;
 	text-transform: uppercase;
-} 
+}
 .btn-lg, .btn-group-lg > .btn {
 	font-size: 14px;
 	font-weight: 500;
@@ -814,7 +814,7 @@ img {
 .btn-med.btn-borders:hover{
 	background:#0199ed;
 	color:#fff;
-	border:1px solid #0191e0;	
+	border:1px solid #0191e0;
 }
 .btn-con.btn-borders{
 	border:1px solid #353535;
@@ -832,14 +832,14 @@ img {
 }
 .btn-primary{
 	background-color: #0199ed;
-	border-color: #0179cd;	
+	border-color: #0179cd;
 }
 .btn-success{
 	background-color: #8ec448;
 	border-color: #74aa2e;
 }
 .btn-warning{
-  background-color: #ffac0e;	
+  background-color: #ffac0e;
 }
 .btn-danger{
 	background-color: #b83932;
@@ -865,7 +865,7 @@ img {
 }
 .single-field > input,
 .single-field > select{
-    height: 32px;	
+    height: 32px;
 }
 .single-field > input,
 .single-field > select,
@@ -886,7 +886,7 @@ img {
 	float: right;
 }
 
-/*============================================ 
+/*============================================
     7. Header Area
 ==============================================*/
 #header-area {
@@ -1053,13 +1053,13 @@ img {
 	font-weight: 700;
 	padding: 10px 16px;
 	text-transform: uppercase;
-	font-family: "Raleway",sans-serif;		
+	font-family: "Raleway",sans-serif;
 }
 .main-menu > li > ul li{
     font-family: "Lato",sans-serif;
 	font-size: 14px;
 	font-weight:500;
-    color:#555;	
+    color:#555;
 }
 .main-menu > li:hover > a,
 .main-menu li ul > li:hover > a,
@@ -1127,7 +1127,7 @@ li.has-child > a::after {
     width: 100%;
 }
 .mega-small-width{
-	width: 420px;	
+	width: 420px;
 }
 .mega-small-width.mega-center {
 	left: -176px;
@@ -1187,21 +1187,21 @@ li.has-child > a::after {
 	left: 0;
 	position: absolute;
 	width: 90%;
-} 
+}
 .construction .single-mega-item li.menu-title::before {
-	background: #ffac0e none repeat scroll 0 0;	
-} 
+	background: #ffac0e none repeat scroll 0 0;
+}
 .resturant .single-mega-item li.menu-title::before {
-	background: #fcda9a none repeat scroll 0 0;	
-} 
+	background: #fcda9a none repeat scroll 0 0;
+}
 .medical .single-mega-item li.menu-title::before {
-	background: #0199ed none repeat scroll 0 0;	
+	background: #0199ed none repeat scroll 0 0;
 }
 .travel .single-mega-item li.menu-title::before {
-	background: #d83240 none repeat scroll 0 0;	
+	background: #d83240 none repeat scroll 0 0;
 }
 .ecommerce .single-mega-item li.menu-title::before {
-	background: #b83932 none repeat scroll 0 0;	
+	background: #b83932 none repeat scroll 0 0;
 }
 .single-mega-item p {
 	line-height: 22px;
@@ -1283,7 +1283,7 @@ li.has-child > a::after {
 	border-top:1px solid #ddd;
 	border-right:1px solid #ddd;
 	border-bottom:1px solid #ddd;
-	border-left:none;  
+	border-left:none;
 	float: left;
 	height: 34px;
 	line-height: 30px;
@@ -1326,10 +1326,10 @@ li.has-child > a::after {
 }
 /*========================================
  8. Travel Page Header
-==========================================*/ 
+==========================================*/
 .travel .sticky .header-navigation{
 	background:#353535;
-} 
+}
 .travel .main-menu > li > a {
     color: #fff;
 }
@@ -1341,13 +1341,13 @@ li.has-child > a::after {
 }
 /*=======================================
   9. Medical Page Header
-=========================================*/ 
+=========================================*/
 .medical .header-navigation{
 	position:relative;
-} 
+}
 .medical .slider-content{
 	padding-top:0;
-} 
+}
 .medical .header-top-bar {
     background-color: #0199ed;
 }
@@ -1396,7 +1396,7 @@ li.has-child > a::after {
 }
 .construction .main-menu > li:hover > a::before,
  .construction .main-menu > li > a.active::before{
-	visibility: visible;	
+	visibility: visible;
 	opacity: 1;
 	bottom: 0;
 }
@@ -1452,7 +1452,7 @@ li.has-child > a::after {
 }
 .header-style-3 .sticky .header-navigation{
 	background:#353535;
-} 
+}
 .header-style-3 .main-menu > li {
     padding: 10px 0;
 }
@@ -1519,7 +1519,7 @@ li.has-child > a::after {
 	transition: all 0.3s ease 0s;
 }
 .header-style-4 .sticky .logo img{
-    height: 48px;	
+    height: 48px;
 }
 .header-style-4 .cart-icon {
 	background: rgba(0, 0, 0, 0) url("../../img/cart-icon.png") repeat scroll 0 0;
@@ -1547,7 +1547,7 @@ li.has-child > a::after {
 	transition:all 0.3s ease 0s;
 }
 .header-style-4 .sticky .top-right-menu{
-    padding-top: 5px;	
+    padding-top: 5px;
 }
 .top-right-menu ul li{
     position: relative;	
@@ -1660,7 +1660,7 @@ li.has-child > a::after {
 	display:none;
 }
 .sticky .cart-items-container, .sticky .top-right-menu ul li .search-box{
-	top: 58px;	
+	top: 58px;
 }
 .shiping-cart .cart-items-container{
 	right: -40px;
@@ -1669,7 +1669,7 @@ li.has-child > a::after {
 	color:#353535;
 }
 .cart-items-container  a:hover{
-    color:#d83240;	
+    color:#d83240;
 }
 .cart-items-container .header {
 	display: block;
@@ -1689,7 +1689,7 @@ li.has-child > a::after {
 	position: relative;
 }
 .cart-items-container li:last-child{
-	border-bottom: none;	
+	border-bottom: none;
 }
 .item-product-cart {
     overflow: hidden;
@@ -1740,7 +1740,7 @@ li.has-child > a::after {
 }
 .item-product-cart a.remove-btn:hover{
 	color:#d83240;
-	border: 1px solid #d83240;	
+	border: 1px solid #d83240;
 }
 .total-cart-details {
 	font-family: raleway;
@@ -1765,8 +1765,8 @@ li.has-child > a::after {
 	-moz-box-shadow:0 0 3px rgba(0, 0, 0, 0.1);
 	-webkit-box-shadow:0 0 3px rgba(0, 0, 0, 0.1);
 }
-/* ============================================ 
-    12. Resturant Page Header  
+/* ============================================
+    12. Resturant Page Header
 ===============================================*/
 .resturant .header-top-bar {
     background: #353535 none repeat scroll 0 0;
@@ -1774,7 +1774,7 @@ li.has-child > a::after {
 .resturant .header-top-bar.semitransparent {
     background: rgba(85, 85, 85, 0.6);
 }
-/*============================================== 
+/*==============================================
    13. Mobile Menu Styles
 ================================================*/
 .mobile-menu-area {
@@ -1796,7 +1796,7 @@ li.has-child > a::after {
 	transition: all 0.3s ease 0s;
 }
 .header-style-4 .sticky .mobile-menu-area{
-    top: 12px;	
+    top: 12px;
 }
 .header-style-4 .mean-container .mean-nav {
     margin-top: 18px;
@@ -1812,7 +1812,7 @@ li.has-child > a::after {
     margin-top: 0;
 }
 /*==============================================
- 14. Page Banner Styles 
+ 14. Page Banner Styles
  ===============================================*/
 #page-header {
 	background-color: #ffffff;
@@ -1843,7 +1843,7 @@ li.has-child > a::after {
 	line-height: 24px;
 }
 /*=============================================
- 15. Breadcrumbs 
+ 15. Breadcrumbs
  ==============================================*/
 .breadcrumbs {
 	display: block;
@@ -1880,7 +1880,7 @@ li.has-child > a::after {
 .construction .banner-content,
  .medical .banner-content{
 	padding-top:0;
-} 
+}
 .construction .breadcrumbs > li.active{
 	color:#ffac0e;
 }
@@ -1923,11 +1923,11 @@ li.has-child > a::after {
 .page-header-bg h2.page-title,
 .page-header-bg .breadcrumbs > li > a,
 .page-header-bg .breadcrumbs > li::after{
-    color: #ddd;	
+    color: #ddd;
 }
 .page-header-light {
     background-color: #f1f1f1 !important;
-	min-height:320px;	
+	min-height:320px;
 }
 .page-header-light .page-title{
 	color:#353535 !important;
@@ -1942,13 +1942,13 @@ li.has-child > a::after {
 .ecommerce #page-header .page-title{
 	color:#353535;
 }
-.ecommerce .breadcrumbs > li, 
+.ecommerce .breadcrumbs > li,
 .ecommerce .breadcrumbs > li::after,
 .ecommerce .breadcrumbs > li > a {
     color: #555555;
 }
-.construction #page-header .page-title, 
-.construction .breadcrumbs > li, 
+.construction #page-header .page-title,
+.construction .breadcrumbs > li,
 .construction .breadcrumbs > li::after,
 .construction .breadcrumbs > li > a {
     color: #555555;

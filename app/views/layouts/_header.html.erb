@@ -27,7 +27,19 @@
           <!-- Start Header Right Info -->
           <div class="top-right-menu pull-right">
             <ul>
-              <li class="user-login"><a href="profil"><i class="icofont icofont-user"></i></a></li>
+              <% if user_signed_in? %>
+                <li class="user-login">
+                  <%= link_to destroy_user_session_path, method: :delete do %>
+                    <i class="icofont icofont-logout"></i>
+                <% end %>
+                </li>
+              <% else %>
+                <li class="user-login">
+                  <%= link_to new_user_registration_path do %>
+                    <i class="icofont icofont-user"></i>
+                <% end %>
+                </li>
+              <% end %>
               <li class="shiping-cart"><span><i class="icofont icofont-shopping-cart"></i> <span class="item-no">02</span></span>
                 <!-- Start Cart Container -->
                 <ul class="cart-items-container">
