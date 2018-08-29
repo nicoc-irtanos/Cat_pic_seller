@@ -2,10 +2,9 @@ Rails.application.routes.draw do
 
   resources :line_items
   resources :carts
-  get 'catalog/index' 
+  get 'catalog/index'
   resources :products
   resources :charges
-
   root 'home#index'
   devise_for :users, controllers: {
     sessions: 'users/sessions'
@@ -16,13 +15,12 @@ Rails.application.routes.draw do
   get '/product_shop', to: 'home#product_shop'
   get '/product_shop2', to: 'home#product_shop2'
   get '/new_collection', to: 'home#new_collection'
-
   get '/basket', to: 'home#basket'
   get '/checkout', to: 'home#checkout'
   get '/signup', to: 'home#signup'
   get '/profil', to: 'home#profil'
   get '/edit_profil', to: 'home#edit_profil'
   get '/confirmation', to: 'home#confirmation'
+  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-    # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
