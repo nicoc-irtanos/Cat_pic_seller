@@ -4,7 +4,7 @@ class TestMailer < ApplicationMailer
   def test_email
     @user = params[:user]
     @url  = 'https://www.thehackingproject.org/week/9/day/3'
-    mail(to: "dimitri.kiavue@gmail.com", subject: 'Welcome to My Awesome Site')
+    mail(to: @user, subject: 'Welcome to My Awesome Site')
   end
 
 end

@@ -33,6 +33,11 @@
                     <i class="icofont icofont-logout"></i>
                 <% end %>
                 </li>
+                <li class="user-login">
+                  <%= link_to user_password_path, method: :update do %>
+                    <i class="icofont icofont-edit"></i>
+                <% end %>
+                </li>
               <% else %>
                 <li class="user-login">
                   <%= link_to new_user_registration_path do %>
