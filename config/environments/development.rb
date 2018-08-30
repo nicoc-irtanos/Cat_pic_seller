@@ -31,7 +31,7 @@ Rails.application.configure do
   config.active_storage.service = :local
 
   # Don't care if the mailer can't send.
-  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.raise_delivery_errors = true
 
   config.action_mailer.perform_caching = false
 
@@ -59,11 +59,12 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.action_mailer.delivery_method = :smtp
+
+  # Mailer
+  config.action_mailer.delivery_method = :mailjet
   config.action_mailer.smtp_settings = {
-  address:              'localhost',
-  port:                 1025,
-  domain:               'localhost',
-  }
+    address:              'localhost',
+    port:                 1025,
+}
 
 end

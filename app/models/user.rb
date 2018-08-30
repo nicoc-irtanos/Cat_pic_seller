@@ -11,10 +11,16 @@ class User < ApplicationRecord
     after_create  :welcome_email, :cart_creation
 
     def welcome_email
-      UserMailer.welcome_email(self).deliver
+       @user = self.email
+      TestMailer.with(user: @user).test_email.deliver_now
     end
 
     def cart_creation
       Cart.create(user_id: self.id)
     end
+
+    # private
+    #   def user_params
+    #     params.require(:user).permit(:email)
+    #   end
 end
