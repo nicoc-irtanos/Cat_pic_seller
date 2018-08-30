@@ -22,8 +22,13 @@ class HomeController < ApplicationController
 
   def product_persan
   end
-
-  def confirmation
+  def product_shop
   end
+  def product_shop2
+  end
+  def new_collection
+  end
+  def confirmation
+  end 
 
 end

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>User Login</title>
+  </head>
+  <body>
+    <%= render "layouts/header"%>
+      <br></br><br></br><br></br><br></br>
+        <div class="bg-parallax parallax-overlay accounts-page"  data-jarallax='{"speed": 0.2}' style='background-image: url("images/bg6.jpg")'>
+          <center>
+            <div class="container">
+              <div class="row pb30">
+                <div class="col-lg-4 col-md-6 mr-auto ml-auto col-sm-8">
+                  <h3 class="text-white text-center mb30">Login to continue</h3>
+                  <form>
+                    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+                      <div class="field">
+                        <%= f.label :email %><br />
+                        <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+                      </div>
+
+                      <div class="field">
+                        <%= f.label :password %><br />
+                        <%= f.password_field :password, autocomplete: "off" %>
+                      </div>
+
+                      <% if devise_mapping.rememberable? -%>
+                        <div class="field">
+                          <%= f.check_box :remember_me %>
+                          <%= f.label :remember_me %>
+                        </div>
+                      <% end -%>
+
+                      <div class="actions">
+                        <%= f.submit "Log in" %>
+                      </div>
+                    <% end %>
+
+                    <%= render "devise/shared/links" %>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </center>
+        </div>
+  </body>
+</html>
