@@ -1,9 +1,8 @@
 class CreateOrders < ActiveRecord::Migration[5.2]
   def change
     create_table :orders do |t|
-      t.references :item, foreign_key: true
-      t.references :user, foreign_key: true
-      t.datetime :date
+      t.belongs_to :user
+      t.belongs_to :cart
       t.timestamps
     end
   end

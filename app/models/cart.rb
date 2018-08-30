@@ -1,5 +1,7 @@
 class Cart < ApplicationRecord
-  has_many :items
+  belongs_to :user
+  has_many :cart_items
+  has_many :items, through: :cart_items
 
   def add_item(item_params)
 
@@ -15,5 +17,9 @@ class Cart < ApplicationRecord
 
       end
       new_item
+    end
+
+    def total
+        cart_items.to_a.sum(&:total)
     end
   end

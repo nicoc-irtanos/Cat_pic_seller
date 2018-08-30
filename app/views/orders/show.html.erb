@@ -1,3 +1,4 @@
+
 <%= render "layouts/header"%>
 
 <!-- End Header -->
@@ -60,45 +61,11 @@
                 <!-- End Single Field -->
                 <!-- End Single Field -->
                 <div class="single-field half-field-last">
-                  <input type="text" name="phone" placeholder="Phone">
                 </div>
                 <!-- End Single Field -->
                 <div class="single-field">
-                  <select class="arrow-1">
-                    <option selected="selected">Country</option>
-                    <option value="France">France</option>
-                    <option value="Canada">Canada</option>
-                    <option value="USA">USA</option>
-                    <option value="China">China</option>
-                  </select>
-                </div>
-                <!-- End Single Field -->
-                <div class="single-field">
-                  <input type="text" name="Adresse" placeholder="Adresse">
 
                 </div>
-
-                <%= form_tag charges_path do %>
-                <article>
-                  <% if flash[:error].present? %>
-                  <div id="error_explanation">
-                    <p><%= flash[:error] %></p>
-                  </div>
-                  <% end %>
-                  <label class="amount">
-                    <!-- <span>Amount: €5.00</span> -->
-                  </label>
-                </article>
-                <!-- #####################Stripe##########################"""" -->
-                <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-                data-description="Paiement"
-                data-amount="9900"
-                data-currency="eur"
-
-                data-locale="auto"></script>
-                <% end %>
-
               </form>
               <!-- End Form -->
             </div>
@@ -129,12 +96,32 @@
                     <td class="text-right">€ 99.00</td>
                   </tr>
                   <tr>
-                    <td><strong>Subtotal</strong></td>
+                    <td><strong>Total</strong></td>
                     <td class="text-right"><strong>€ 99.00</strong></td>
                   </tr>
                 </tbody>
               </table>
-              
+              <%= form_tag charges_path do %>
+              <article>
+                <% if flash[:error].present? %>
+                <div id="error_explanation">
+                  <p><%= flash[:error] %></p>
+                </div>
+                <% end %>
+                <label class="amount">
+                  <!-- <span>Amount: €5.00</span> -->
+                </label>
+              </article>
+              <!-- #####################Stripe##########################"""" -->
+              <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+              data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
+              data-description="Paiement"
+              data-amount="9900"
+              data-currency="eur"
+
+              data-locale="auto"></script>
+              <% end %>
+
             </div>
             <!-- End Single Method -->
           </div>

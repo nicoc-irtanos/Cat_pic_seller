@@ -2,12 +2,6 @@ class HomeController < ApplicationController
   def index
   end
 
-  def basket
-  end
-
-  def checkout
-  end
-
   def profil
   end
 
@@ -22,13 +16,9 @@ class HomeController < ApplicationController
 
   def product_persan
   end
-  def product_shop
-  end
-  def product_shop2
-  end
   def new_collection
   end
   def confirmation
-  end 
+  end
 
 end
