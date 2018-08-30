@@ -34,9 +34,54 @@
                 <% end %>
                 </li>
                 <li class="user-login">
-                  <%= link_to user_password_path, method: :update do %>
+                  <%= link_to edit_user_password_path do %>
                     <i class="icofont icofont-edit"></i>
                 <% end %>
+                </li>
+                <li class="shiping-cart"><span><i class="icofont icofont-shopping-cart"></i> <span class="item-no">02</span></span>
+                  <!-- Start Cart Container -->
+                  <ul class="cart-items-container">
+                    <!-- Start Cart header-->
+                    <li class="header">Your Order</li>
+                    <!-- Start Cart Item -->
+                    <li class="item-product-cart">
+                      <div class="cart-img">
+                        <a href="#"><img src="img/products/cart/cart1.jpg" alt=""></a>
+                      </div>
+                      <div class="cart-content">
+                        <span class="cart-name"><a href="#">Product Name</a></span>
+                        <span class="cart-price">€299.00</span>
+                        <span class="cart-qty">Qty: 01</span>
+                      </div>
+                      <a href="#" class="remove-btn"><i class="icofont icofont-close"></i></a>
+                    </li>
+                    <!-- End Cart Item -->
+                    <!-- Start Cart Item -->
+                    <li class="item-product-cart">
+                      <div class="cart-img">
+                        <a href="#"><img src="img/products/cart/cart1.jpg" alt=""></a>
+                      </div>
+                      <div class="cart-content">
+                        <span class="cart-name"><a href="#">Product Name</a></span>
+                        <span class="cart-price">€499.00</span>
+                        <span class="cart-qty">Qty: 01</span>
+                      </div>
+                      <a href="#" class="remove-btn"><i class="icofont icofont-close"></i></a>
+                    </li>
+                    <!-- End Cart Item -->
+                    <!-- Carts Totals -->
+                    <li class="total-cart-details">
+                      <span>TOTAL</span>
+                      <span class="pull-right"><span class="amount">£72.50</span></span>
+                    </li>
+                    <!-- Start Cart Buttons -->
+                     <li class="cart-buttons">
+                      <a class="btn btn-view" href="basket">View Cart</a>
+                      <a class="btn btn-checkout" href="checkout">Checkout</a>
+                    </li>
+                    <!-- End Cart Buttons -->
+                  </ul>
+                  <!-- End Cart Container -->
                 </li>
               <% else %>
                 <li class="user-login">
@@ -45,61 +90,8 @@
                 <% end %>
                 </li>
               <% end %>
-              <li class="shiping-cart"><span><i class="icofont icofont-shopping-cart"></i> <span class="item-no">02</span></span>
-                <!-- Start Cart Container -->
-                <ul class="cart-items-container">
-                  <!-- Start Cart header-->
-                  <li class="header">Your Order</li>
-                  <!-- Start Cart Item -->
-                  <li class="item-product-cart">
-                    <div class="cart-img">
-                      <a href="#"><img src="img/products/cart/cart1.jpg" alt=""></a>
-                    </div>
-                    <div class="cart-content">
-                      <span class="cart-name"><a href="#">Product Name</a></span>
-                      <span class="cart-price">€299.00</span>
-                      <span class="cart-qty">Qty: 01</span>
-                    </div>
-                    <a href="#" class="remove-btn"><i class="icofont icofont-close"></i></a>
-                  </li>
-                  <!-- End Cart Item -->
-                  <!-- Start Cart Item -->
-                  <li class="item-product-cart">
-                    <div class="cart-img">
-                      <a href="#"><img src="img/products/cart/cart1.jpg" alt=""></a>
-                    </div>
-                    <div class="cart-content">
-                      <span class="cart-name"><a href="#">Product Name</a></span>
-                      <span class="cart-price">€499.00</span>
-                      <span class="cart-qty">Qty: 01</span>
-                    </div>
-                    <a href="#" class="remove-btn"><i class="icofont icofont-close"></i></a>
-                  </li>
-                  <!-- End Cart Item -->
-                  <!-- Carts Totals -->
-                  <li class="total-cart-details">
-                    <span>TOTAL</span>
-                    <span class="pull-right"><span class="amount">£72.50</span></span>
-                  </li>
-                  <!-- Start Cart Buttons -->
-                   <li class="cart-buttons">
-                    <a class="btn btn-view" href="basket">View Cart</a>
-                    <a class="btn btn-checkout" href="checkout">Checkout</a>
-                  </li>
-                  <!-- End Cart Buttons -->
-                </ul>
-                <!-- End Cart Container -->
-              </li>
-              <li class="search-btn"><span><i class="icofont icofont-search"></i></span>
-                <!-- Start Search Box -->
-                <div class="search-box">
-                  <form class="search-box-inner">
-                    <input class="search" placeholder="Search for..." type="text">
-                    <input value="go" class="submit" type="submit">
-                  </form>
-                </div>
-                <!-- End Search Box -->
-              </li>
+
+
               <li class="menu-lines"><span><i class="icofont icofont-justify-all"></i></span></li>
             </ul>
           </div>
