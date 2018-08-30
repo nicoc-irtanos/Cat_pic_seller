@@ -1,24 +1,33 @@
-# README
+<h1>Boutique e-commerce</h1> 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+lien: 
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+<h2>Utilisation en local</h2>
 
-* Configuration
 
-* Database creation
+> <p>git clone https://github.com/nicoc-irtanos/Cat_pic_seller.git
 
-* Database initialization
+> cd Cat_pic_seller
 
-* How to run the test suite
+> bundle install 
 
-* Services (job queues, cache servers, search engines, etc.)
+> rails db:create
 
-* Deployment instructions
+> rails db:migrate
 
-* ...
+> rails db:seed
+
+> rails server  
+
+Go sur http://localhost:3000/
+
+<h2>Réalisé par la team:</h2>
+
+Nico C, 
+Dimitri K, 
+Kamel B, 
+Fadia R, 
+Valérie C
+  
