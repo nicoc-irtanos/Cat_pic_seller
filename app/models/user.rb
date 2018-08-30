@@ -11,10 +11,10 @@ class User < ApplicationRecord
     after_create  :welcome_email, :cart_creation
 
     def welcome_email
-      UserMailer.welcome_email(self).deliver
+      TestMailer.with(user:" dimitri.kiavue@gmail.com").test_email.deliver_now
     end
 
     def cart_creation
-      Cart.create(user_id: self.id)
+      Cart.create(user_id: self.id)      
     end
 end

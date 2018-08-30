@@ -6,6 +6,7 @@ class HomeController < ApplicationController
   end
 
   def checkout
+    
   end
 
   def profil
