@@ -81,5 +81,4 @@ test:
 production:
   <<: *default
   database: Cat_pic_seller_production
-  username: Cat_pic_seller
   password: <%= ENV['CAT_PIC_SELLER_DATABASE_PASSWORD'] %>
