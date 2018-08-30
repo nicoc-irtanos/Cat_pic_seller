@@ -1,14 +1,16 @@
 Rails.application.routes.draw do
 
+  resources :orders
   resources :line_items
   resources :carts
-  get 'catalog/index'
+  # root 'catalog#index'
   resources :products
   resources :charges
   root 'home#index'
   devise_for :users, controllers: {
     sessions: 'users/sessions'
   }
+  get  '/orders', to: 'orders#index'
   get '/product_europeen', to: 'home#product_europeen'
   get '/product_siberien', to: 'home#product_siberien'
   get '/product_persan', to: 'home#product_persan'

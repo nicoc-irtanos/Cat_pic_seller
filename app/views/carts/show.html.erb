@@ -1,6 +1,6 @@
 <h2>Panier</h2>
 
-<p id="notice"><%= notice %></p>
+
 
 <ul>
   <% @cart.line_items.each do |item| %>
@@ -17,7 +17,10 @@
     <%= link_to "retour aux produits", root_path, class: "btn btn-primary" %>
   </div>
   <div class="col">
-    <%= button_to "vider le panier", @cart, method: :delete, data: { confirm: "etes-vous sur ?" },
+
+<%= button_to "acheter", new_order_path, method: :get, class: "btn btn-primary mb-2" %>
+
+    <%= button_to "vider le panier", @cart, method: :delete, data: { confirm: "etes-vous sur de suprimer?" },
     class: "btn btn-danger" %>
   </div>
 </div>
